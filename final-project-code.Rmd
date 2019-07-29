@@ -1,0 +1,35 @@
+---
+title: 'Problem Set #4'
+author: 'Experiments and Causality' 
+output:
+  rmarkdown::github_document
+---
+
+```{r}
+# load packages 
+library(data.table)
+library(foreign)
+library(lmtest)
+library(stargazer)
+library(sandwich)
+library(bit64)
+```
+
+```{r}
+d <- fread("./data/sm_results.csv")
+d <- data.table(d)
+d <- na.omit(d)
+head(d)
+```
+```{r}
+d[,Y_pcp := ifelse(gender==pcp, 1, -1)]
+d[,Y_cardio := ifelse(gender==cardiologist, 1, -1)]
+d[,Y_psy := ifelse(gender==psyciatrist, 1, -1)]
+d[,Y_den := ifelse(gender==denstist, 1, -1)]
+d[,Y_1 := Y_pcp + Y_cardio + Y_psy + Y_den]
+
+hist(d[,Y_1], breaks = 4)
+hist(d[gender=="Female" & year_of_birth>1970][,Y_1], breaks = 4)
+hist(d[gender=="Male"][,Y_1], breaks = 4)
+```
+
