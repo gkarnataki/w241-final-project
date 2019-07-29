@@ -1,395 +1,395 @@
 channel,respondent_id,start_date,end_date,us_state,year_of_birth,gender,race,income,degree,pcp_img,cardiologist_img,psychiatrist_img,dentist_img,pcp,cardiologist,psyciatrist,denstist
-surveymonkey,10886483777,7/26/19 17:08,7/26/19 17:13,Texas,1993,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 3,Image 3,Female,Male,Male,Female
-surveymonkey,10886483199,7/26/19 17:12,7/26/19 17:18,Kansas,2000,male,Asian / Pacific Islander,Prefer NOT to disclose,Associate Degree (2-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10886480289,7/26/19 17:07,7/26/19 17:09,California,1983,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10886463334,7/26/19 16:53,7/26/19 16:55,Georgia,1977,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886452766,7/26/19 16:43,7/26/19 16:44,Vermont,1999,male,White / Caucasian,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 2,Image 2,,Image 3,Male,Female,NULL,Female
-surveymonkey,10886452690,7/26/19 16:43,7/26/19 16:48,Massachusetts,1962,female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10886451572,7/26/19 16:41,7/26/19 16:42,Texas,1985,female,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10886441710,7/26/19 16:31,7/26/19 16:33,Illinois,1974,male,Asian / Pacific Islander,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10886438244,7/26/19 16:29,7/26/19 16:52,Louisiana,1996,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10886430997,7/26/19 16:24,7/26/19 16:27,Utah,1991,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 4,Image 3,Male,Male,Male,Female
-surveymonkey,10886414821,7/26/19 16:09,7/26/19 16:12,Connecticut,1968,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 1,Female,Female,Female,Male
-surveymonkey,10886411797,7/26/19 16:04,7/26/19 16:07,Illinois,1996,male,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10886410872,7/26/19 16:04,7/26/19 16:06,Colorado,1988,male,Prefer not to disclose,Prefer NOT to disclose,High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886403975,7/26/19 15:57,7/26/19 16:00,Tennessee,1966,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 1,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10886399508,7/26/19 15:56,7/26/19 16:00,Florida,1992,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10886396185,7/26/19 15:50,7/26/19 15:54,California,1983,male,Hispanic,"$10,000Â to $49,999",PreferÂ NOT to disclose,Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10886392187,7/26/19 15:47,7/26/19 15:51,Colorado,1995,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10886383433,7/26/19 15:43,7/26/19 15:48,New York,1973,female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10886380323,7/26/19 15:35,7/26/19 15:41,Maine,1986,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10886376990,7/26/19 15:38,7/26/19 15:42,California,1998,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
-surveymonkey,10886375227,7/26/19 15:34,7/26/19 15:37,North Carolina,1995,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10886369859,7/26/19 15:32,7/26/19 15:34,Massachusetts,1985,male,Asian / Pacific Islander,"$10,000Â to $49,999",Doctoral Degree,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886369177,7/26/19 15:29,7/26/19 15:32,Florida,1981,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10886356010,7/26/19 15:18,7/26/19 15:22,Minnesota,1989,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10886348847,7/26/19 15:16,7/26/19 15:20,Missouri,2000,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10886343102,7/26/19 15:10,7/26/19 15:12,New York,2000,male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 2,Image 3,Image 1,Image 3,Male,Male,Female,Female
-surveymonkey,10886334753,7/26/19 15:05,7/26/19 15:06,South Carolina,1998,male,White / Caucasian,"Less thanÂ $10,000",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10886333163,7/26/19 15:05,7/26/19 15:06,Texas,1975,male,Black or African American,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
-surveymonkey,10886330609,7/26/19 13:50,7/26/19 15:06,California,1986,male,White / Caucasian,"$150,000 to $199,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886314022,7/26/19 14:50,7/26/19 14:51,Florida,1965,male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10886308589,7/26/19 14:42,7/26/19 14:48,Minnesota,1986,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886308384,7/26/19 14:44,7/26/19 14:47,Minnesota,1981,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10886307305,7/26/19 14:46,7/26/19 14:47,Texas,1993,male,Asian / Pacific Islander,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10886289339,7/26/19 14:32,7/26/19 14:35,Florida,1947,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886289328,7/26/19 14:34,7/26/19 14:35,Mississippi,1996,female,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10886277700,7/26/19 14:25,7/26/19 14:41,California,1980,female,Black or African American,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
-surveymonkey,10886270683,7/26/19 14:18,7/26/19 14:23,Hawaii,1999,female,Asian / Pacific Islander,"Less thanÂ $10,000",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886261086,7/26/19 14:14,7/26/19 14:17,Florida,1981,male,Black or African American,"Less thanÂ $10,000",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10886259631,7/26/19 14:13,7/26/19 14:16,Illinois,1967,male,White / Caucasian,"$10,000Â to $49,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886259051,7/26/19 14:15,7/26/19 14:18,California,1973,male,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 3,Male,Female,Male,Female
-surveymonkey,10886258959,7/26/19 14:14,7/26/19 14:15,Indiana,1965,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886241037,7/26/19 14:01,7/26/19 14:04,California,1986,female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 1,Image 1,Female,Male,Female,Male
-surveymonkey,10886240283,7/26/19 13:59,7/26/19 14:04,Pennsylvania,1992,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10886233519,7/26/19 13:57,7/26/19 14:00,California,1989,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886232001,7/26/19 13:57,7/26/19 13:59,Texas,1984,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886230836,7/26/19 13:58,7/26/19 13:59,Arizona,1991,male,Hispanic,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 4,,,Male,Male,NULL,NULL
-surveymonkey,10886220911,7/26/19 13:52,7/26/19 13:54,New York,1999,female,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886210306,7/26/19 13:43,7/26/19 13:46,Oregon,1987,male,Asian / Pacific Islander,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10886208651,7/26/19 13:42,7/26/19 13:45,Florida,1981,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886200449,7/26/19 13:38,7/26/19 13:41,New York,1998,female,Asian / Pacific Islander,"$10,000Â to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10886186766,7/26/19 13:32,7/26/19 13:33,Kentucky,1974,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10886185974,7/26/19 13:30,7/26/19 13:33,New York,1986,male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 1,Image 1,Male,Male,Female,Male
-surveymonkey,10886183525,7/26/19 13:31,7/26/19 13:34,Michigan,1990,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10886182365,7/26/19 13:27,7/26/19 13:31,Texas,1978,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10886173852,7/26/19 13:24,7/26/19 13:26,Texas,1998,male,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886167470,7/26/19 13:22,7/26/19 13:26,New Jersey,2000,male,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 4,Image 4,Image 4,Image 3,Female,Male,Male,Female
-surveymonkey,10886164902,7/26/19 13:15,7/26/19 13:21,Texas,2001,female,Others not mentioned,"Less thanÂ $10,000",Bachelor's Degree (4-year),Image 3,Image 1,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10886164257,7/26/19 13:20,7/26/19 13:23,Arkansas,1985,female,Multiple ethnicities,"Less thanÂ $10,000",High School Graduate,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10886156043,7/26/19 13:16,7/26/19 13:17,Michigan,1982,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10886155714,7/26/19 13:15,7/26/19 13:18,Illinois,2000,female,Hispanic,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10886155390,7/26/19 13:15,7/26/19 13:15,Alabama,1989,male,Asian / Pacific Islander,"Less thanÂ $10,000",Associate Degree (2-year),Image 2,Image 3,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10886155138,7/26/19 13:14,7/26/19 13:15,Oklahoma,1997,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10886153152,7/26/19 13:11,7/26/19 13:14,Colorado,1978,female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886132117,7/26/19 13:01,7/26/19 13:03,Florida,1988,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886131638,7/26/19 13:02,7/26/19 13:05,New York,1987,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10886125970,7/26/19 12:57,7/26/19 12:59,North Carolina,1992,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 2,Male,Female,Male,Male
-surveymonkey,10886125560,7/26/19 12:59,7/26/19 13:00,Georgia,1991,female,White / Caucasian,"Less thanÂ $10,000",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10886122974,7/26/19 12:56,7/26/19 12:58,California,1967,female,White / Caucasian,"Less thanÂ $10,000",Associate Degree (2-year),Image 4,Image 4,Image 1,Image 4,Female,Male,Female,Female
-surveymonkey,10886122856,7/26/19 12:56,7/26/19 12:58,New York,1950,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10886115577,7/26/19 12:50,7/26/19 12:54,Georgia,1972,female,Black or African American,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10886109890,7/26/19 12:46,7/26/19 12:51,Montana,1984,female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10886108151,7/26/19 12:46,7/26/19 12:50,Texas,1992,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 2,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10886107145,7/26/19 12:47,7/26/19 12:49,North Carolina,1983,female,White / Caucasian,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10886105689,7/26/19 12:48,7/26/19 12:51,Pennsylvania,1966,female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886094549,7/26/19 12:42,7/26/19 12:48,Texas,1991,female,White / Caucasian,"$10,000Â to $49,999",Doctoral Degree,Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10886086757,7/26/19 12:38,7/26/19 12:42,California,1969,female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 3,Image 1,Male,Female,Male,Male
-surveymonkey,10886086544,7/26/19 12:37,7/26/19 12:42,California,1998,female,Multiple ethnicities,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
-surveymonkey,10886083098,7/26/19 12:36,7/26/19 12:45,Florida,1979,female,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886077843,7/26/19 12:33,7/26/19 12:35,Georgia,1991,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 3,Image 4,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10886076982,7/26/19 12:32,7/26/19 12:33,Ohio,1994,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10886076474,7/26/19 12:32,7/26/19 12:36,Louisiana,1973,female,Hispanic,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 3,Image 3,Female,Male,Male,Female
-surveymonkey,10886073059,7/26/19 12:31,7/26/19 12:32,Illinois,1986,male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 3,Image 2,Male,Female,Male,Male
-surveymonkey,10886070542,7/26/19 12:29,7/26/19 12:32,Georgia,1995,male,Multiple ethnicities,"Less thanÂ $10,000",Associate Degree (2-year),Image 3,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10886062010,7/26/19 12:26,7/26/19 12:32,Connecticut,1965,female,Asian / Pacific Islander,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 1,Image 3,Female,Male,Female,Female
-surveymonkey,10886059763,7/26/19 12:25,7/26/19 12:27,Massachusetts,1996,male,White / Caucasian,Prefer NOT to disclose,Associate Degree (2-year),Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10886041744,7/26/19 12:16,7/26/19 12:18,California,1988,male,Asian / Pacific Islander,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10886030834,7/26/19 12:04,7/26/19 12:12,New Mexico,1980,female,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10886026692,7/26/19 12:01,7/26/19 12:09,Pennsylvania,1997,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10886019566,7/26/19 12:01,7/26/19 12:06,Indiana,1991,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10886018673,7/26/19 12:03,7/26/19 12:05,Texas,1962,female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10886016316,7/26/19 12:04,7/26/19 12:18,Texas,1973,female,Black or African American,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 1,,Image 3,Female,Female,NULL,Female
-surveymonkey,10886015279,7/26/19 12:01,7/26/19 12:03,Ohio,1993,female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10886014664,7/26/19 12:01,7/26/19 12:03,North Carolina,1992,male,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10886011483,7/26/19 12:00,7/26/19 12:01,New York,1984,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 3,Male,Male,Female,Female
-surveymonkey,10886010028,7/26/19 12:00,7/26/19 12:03,Illinois,1980,female,Hispanic,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10886008697,7/26/19 11:56,7/26/19 12:00,New Jersey,1984,female,White / Caucasian,"$10,000Â to $49,999",PreferÂ NOT to disclose,Image 3,Image 1,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10886007605,7/26/19 11:56,7/26/19 11:59,New York,1993,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
-surveymonkey,10885998310,7/26/19 11:50,7/26/19 11:54,California,1994,male,Multiple ethnicities,"$10,000Â to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885997446,7/26/19 11:51,7/26/19 11:54,California,1993,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10885987506,7/26/19 11:46,7/26/19 11:49,California,2001,female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885983918,7/26/19 11:47,7/26/19 11:48,Illinois,1990,male,White / Caucasian,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 3,Image 2,Image 4,Image 3,Female,Female,Male,Female
-surveymonkey,10885981094,7/26/19 11:45,7/26/19 11:48,Massachusetts,1983,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 4,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10885978679,7/26/19 11:40,7/26/19 11:44,New York,1958,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 4,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885965239,7/26/19 11:30,7/26/19 11:37,California,1988,male,Asian / Pacific Islander,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 1,Image 1,Male,Female,Female,Male
-surveymonkey,10885959856,7/26/19 11:28,7/26/19 11:34,Texas,2000,female,Hispanic,Prefer NOT to disclose,High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885955223,7/26/19 11:31,7/26/19 11:34,Florida,1961,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10885953868,7/26/19 11:06,7/26/19 11:31,Massachusetts,1987,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10885953665,7/26/19 11:30,7/26/19 11:34,Arkansas,1971,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10885950920,7/26/19 11:28,7/26/19 11:30,Connecticut,1991,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10885947571,7/26/19 11:23,7/26/19 11:27,Colorado,1991,male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 4,Male,Female,Female,Female
-surveymonkey,10885943937,7/26/19 11:25,7/26/19 11:27,Pennsylvania,1969,male,Black or African American,"Less thanÂ $10,000",High School Graduate,Image 1,Image 3,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10885941838,7/26/19 11:22,7/26/19 11:24,New York,1974,female,Asian / Pacific Islander,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10885939875,7/26/19 11:16,7/26/19 11:23,North Carolina,1976,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 4,Image 3,Male,Female,Male,Female
-surveymonkey,10885936144,7/26/19 11:16,7/26/19 11:21,Michigan,1951,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10885934814,7/26/19 11:19,7/26/19 11:21,Wisconsin,1978,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 4,Image 3,Image 1,Male,Male,Male,Male
-surveymonkey,10885933528,7/26/19 11:13,7/26/19 11:20,Ohio,1978,female,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 2,Female,Male,Female,Male
-surveymonkey,10885931495,7/26/19 11:19,7/26/19 11:21,Connecticut,1967,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
-surveymonkey,10885915348,7/26/19 11:08,7/26/19 11:10,California,1978,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10885912133,7/26/19 11:05,7/26/19 11:09,California,1954,male,Black or African American,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10885901520,7/26/19 11:03,7/26/19 11:05,West Virginia,1993,female,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10885894070,7/26/19 10:58,7/26/19 10:59,Georgia,1992,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885882764,7/26/19 10:52,7/26/19 10:53,Georgia,1981,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10885879787,7/26/19 10:49,7/26/19 10:52,North Carolina,1974,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885874730,7/26/19 10:46,7/26/19 10:49,Michigan,2000,female,White / Caucasian,Prefer NOT to disclose,Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885874388,7/26/19 10:46,7/26/19 10:49,Washington,1971,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885871876,7/26/19 10:46,7/26/19 10:48,Virginia,1990,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10885870452,7/26/19 10:46,7/26/19 10:47,Nebraska,1991,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10885869800,7/26/19 10:46,7/26/19 10:47,Arizona,1990,male,Asian / Pacific Islander,"$50,000 and $99,999",Doctoral Degree,Image 3,Image 1,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10885867998,7/26/19 10:46,7/26/19 10:49,Texas,2000,female,White / Caucasian,"$200,000 or more",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885867355,7/26/19 10:45,7/26/19 10:49,Michigan,1990,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10885853804,7/26/19 10:39,7/26/19 10:45,Wisconsin,1974,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10885844950,7/26/19 10:34,7/26/19 10:37,Pennsylvania,1970,female,Asian / Pacific Islander,"$100,000 to $149,999",PreferÂ NOT to disclose,Image 2,Image 3,Image 3,Image 1,Male,Male,Male,Male
-surveymonkey,10885835774,7/26/19 10:28,7/26/19 10:30,Florida,1997,male,White / Caucasian,"Less thanÂ $10,000",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10885824335,7/26/19 10:16,7/26/19 10:24,Pennsylvania,1996,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10885817088,7/26/19 10:06,7/26/19 10:21,Missouri,2001,female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885812489,7/26/19 10:18,7/26/19 10:22,Florida,1994,female,Prefer not to disclose,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10885788563,7/26/19 10:04,7/26/19 10:07,New Mexico,1989,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10885782075,7/26/19 10:00,7/26/19 10:04,Iowa,1970,male,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885779100,7/26/19 10:02,7/26/19 10:03,Florida,1996,male,Black or African American,"$10,000Â to $49,999",Doctoral Degree,Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10885772745,7/26/19 9:55,7/26/19 9:59,Arizona,1987,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
-surveymonkey,10885768860,7/26/19 9:56,7/26/19 9:57,Ohio,1969,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10885765748,7/26/19 9:52,7/26/19 9:56,Maryland,1977,female,Black or African American,"$100,000 to $149,999",High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885765057,7/26/19 9:55,7/26/19 9:57,New York,1992,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 2,Image 2,Image 4,Image 1,Male,Female,Male,Male
-surveymonkey,10885764318,7/26/19 9:51,7/26/19 9:55,Virginia,1969,female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10885755372,7/26/19 9:46,7/26/19 9:51,Washington,1981,female,White / Caucasian,"$150,000 to $199,999",Associate Degree (2-year),Image 2,Image 3,Image 2,Image 4,Male,Male,Female,Female
-surveymonkey,10885750588,7/26/19 9:46,7/26/19 9:49,Florida,1995,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 4,Image 3,Male,Female,Male,Female
-surveymonkey,10885743700,7/26/19 9:45,7/26/19 9:49,Wisconsin,1998,male,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10885743678,7/26/19 9:45,7/26/19 9:48,New Jersey,1959,male,Multiple ethnicities,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885743310,7/26/19 9:43,7/26/19 9:45,Michigan,1999,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885737064,7/26/19 9:10,7/26/19 9:42,Texas,1980,female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 3,Image 1,Image 4,Image 4,Female,Female,Male,Female
-surveymonkey,10885734199,7/26/19 9:41,7/26/19 9:45,Michigan,1978,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10885732656,7/26/19 9:31,7/26/19 9:37,Connecticut,1997,male,Hispanic,"$10,000Â to $49,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885729183,7/26/19 9:33,7/26/19 9:39,California,1992,female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 3,Image 1,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10885724105,7/26/19 9:33,7/26/19 9:36,New York,1993,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10885714561,7/26/19 9:29,7/26/19 9:32,Maryland,1990,male,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 1,Image 3,Female,Male,Female,Female
-surveymonkey,10885713515,7/26/19 9:30,7/26/19 9:34,California,1998,female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10885705887,7/26/19 9:26,7/26/19 9:29,Illinois,1984,female,Black or African American,"$10,000Â to $49,999",Associate Degree (2-year),Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885705459,7/26/19 9:23,7/26/19 9:27,Washington,1991,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 4,Female,Male,Female,Female
-surveymonkey,10885687580,7/26/19 9:19,7/26/19 9:21,California,1998,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885683275,7/26/19 9:15,7/26/19 9:17,Wisconsin,1991,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885657431,7/26/19 9:01,7/26/19 9:06,Virginia,1978,female,Multiple ethnicities,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885644366,7/26/19 9:00,7/26/19 9:05,Georgia,1978,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 1,Male,Female,Female,Male
-surveymonkey,10885619429,7/26/19 8:50,7/26/19 8:53,Louisiana,1994,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10885614043,7/26/19 8:30,7/26/19 8:48,Oregon,1983,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10885609120,7/26/19 8:45,7/26/19 8:48,Washington,1953,male,White / Caucasian,"$200,000 or more",High School Graduate,Image 4,Image 3,,,Female,Male,NULL,NULL
-surveymonkey,10885594287,7/26/19 8:34,7/26/19 8:40,California,1985,male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 3,Image 4,Male,Female,Male,Female
-surveymonkey,10885590826,7/26/19 8:38,7/26/19 8:42,Virginia,1980,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 1,Male,Female,Female,Male
-surveymonkey,10885557897,7/26/19 8:25,7/26/19 8:27,Georgia,1985,female,Hispanic,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 3,Image 1,Female,Female,Male,Male
-surveymonkey,10885544083,7/26/19 8:18,7/26/19 8:20,Georgia,1982,male,Prefer not to disclose,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10885542343,7/26/19 8:19,7/26/19 8:23,Virginia,1968,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885528776,7/26/19 8:14,7/26/19 8:17,California,1979,female,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885524840,7/26/19 8:12,7/26/19 8:14,New York,1969,female,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
-surveymonkey,10885513874,7/26/19 8:04,7/26/19 8:08,Tennessee,1952,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 1,Image 3,Image 3,Image 1,Male,Male,Male,Male
-surveymonkey,10885510461,7/26/19 8:03,7/26/19 8:07,Nebraska,1953,male,White / Caucasian,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 1,Image 3,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10885499315,7/26/19 8:02,7/26/19 8:04,Nevada,1973,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885498434,7/26/19 8:00,7/26/19 8:02,New Jersey,2002,male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885485559,7/26/19 7:57,7/26/19 8:01,Illinois,1965,male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10885477511,7/26/19 7:50,7/26/19 7:53,Kansas,1991,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10885434094,7/26/19 7:27,7/26/19 7:35,New Jersey,1982,male,Multiple ethnicities,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10885400250,7/26/19 7:20,7/26/19 7:27,Texas,1967,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10885396930,7/26/19 7:19,7/26/19 7:25,North Carolina,1968,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10885377153,7/26/19 7:11,7/26/19 7:15,New Jersey,1969,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885255013,7/26/19 6:15,7/26/19 6:19,Utah,1992,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10885233110,7/26/19 6:04,7/26/19 6:06,California,1974,male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 4,Image 3,Female,Male,Male,Female
-surveymonkey,10885193082,7/26/19 5:44,7/26/19 5:45,Indiana,1965,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),,,,,NULL,NULL,NULL,NULL
-surveymonkey,10885122672,7/26/19 5:04,7/26/19 5:10,Maryland,1949,male,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 1,Image 4,Male,Male,Female,Female
-surveymonkey,10885122258,7/26/19 5:04,7/26/19 5:07,Texas,1967,male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10885115082,7/26/19 5:00,7/26/19 5:01,New Jersey,1949,male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),,,,,NULL,NULL,NULL,NULL
-surveymonkey,10885109767,7/26/19 4:56,7/26/19 5:04,North Carolina,1939,male,White / Caucasian,"$200,000 or more",Doctoral Degree,Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10885109564,7/26/19 4:56,7/26/19 4:59,Texas,1945,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10885103204,7/26/19 4:52,7/26/19 4:56,Arkansas,1972,male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10885098929,7/26/19 4:49,7/26/19 4:54,Michigan,1966,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10885092671,7/26/19 4:45,7/26/19 4:49,Pennsylvania,1974,male,Multiple ethnicities,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10885081079,7/26/19 4:37,7/26/19 4:40,Oregon,1957,male,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 3,Image 4,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885075783,7/26/19 4:33,7/26/19 4:35,Texas,1943,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
-surveymonkey,10885069912,7/26/19 4:29,7/26/19 4:31,Massachusetts,1950,male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885060426,7/26/19 4:22,7/26/19 4:26,Ohio,1962,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10885051707,7/26/19 4:14,7/26/19 4:16,New York,1979,male,White / Caucasian,"$150,000 to $199,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10885046424,7/26/19 4:11,7/26/19 4:13,Ohio,1963,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885045578,7/26/19 4:08,7/26/19 4:12,Pennsylvania,1973,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 4,Image 3,Image 1,Male,Male,Male,Male
-surveymonkey,10885040093,7/26/19 4:07,7/26/19 4:17,Florida,1935,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 1,Female,Female,Female,Male
-surveymonkey,10885039129,7/26/19 4:07,7/26/19 4:10,Texas,1971,female,Hispanic,"Less thanÂ $10,000",High School Graduate,Image 1,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10885037195,7/26/19 3:40,7/26/19 4:06,North Carolina,1998,male,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 1,Image 3,Male,Male,Female,Female
-surveymonkey,10885034954,7/26/19 4:04,7/26/19 4:06,Missouri,1962,female,White / Caucasian,"Less thanÂ $10,000",PreferÂ NOT to disclose,Image 2,Image 4,Image 4,Image 4,Male,Male,Male,Female
-surveymonkey,10885034504,7/26/19 4:04,7/26/19 4:08,Florida,1951,male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
-surveymonkey,10885030387,7/26/19 4:01,7/26/19 4:12,Oklahoma,1959,female,White / Caucasian,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 2,Image 1,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10885028611,7/26/19 3:54,7/26/19 4:00,Georgia,1967,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10885027739,7/26/19 3:59,7/26/19 4:11,Indiana,1992,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10885026825,7/26/19 3:57,7/26/19 3:58,Colorado,1978,female,Multiple ethnicities,"$150,000 to $199,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
-surveymonkey,10885023881,7/26/19 3:54,7/26/19 3:56,Maryland,1964,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 4,Female,Male,Female,Female
-surveymonkey,10885022444,7/26/19 3:50,7/26/19 3:55,Virginia,1960,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10885015992,7/26/19 3:50,7/26/19 3:55,Maine,1948,male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10885011744,7/26/19 3:47,7/26/19 3:50,Missouri,1983,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10885011073,7/26/19 3:46,7/26/19 3:49,Georgia,1967,female,Black or African American,"$200,000 or more",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10885010782,7/26/19 3:42,7/26/19 3:46,Ohio,1959,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885010317,7/26/19 3:46,7/26/19 3:49,Virginia,1955,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10885007344,7/26/19 3:43,7/26/19 3:47,New York,1992,male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10885005816,7/26/19 3:42,7/26/19 3:44,Connecticut,1957,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10885001934,7/26/19 3:17,7/26/19 3:39,California,1967,male,Hispanic,"$10,000Â to $49,999",High School Graduate,Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10884999313,7/26/19 3:36,7/26/19 3:37,Maine,1965,male,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 4,Image 4,Image 3,Male,Male,Male,Female
-surveymonkey,10884994706,7/26/19 3:33,7/26/19 3:37,Ohio,1968,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884993025,7/26/19 3:30,7/26/19 3:32,New York,1985,female,White / Caucasian,"$50,000 and $99,999",Doctoral Degree,Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884992198,7/26/19 3:26,7/26/19 3:31,North Carolina,1988,female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 4,Male,Male,Female,Female
-surveymonkey,10884992065,7/26/19 3:31,7/26/19 3:35,Virginia,1954,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884990406,7/26/19 3:30,7/26/19 3:34,North Carolina,1973,female,White / Caucasian,"$150,000 to $199,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884986819,7/26/19 3:26,7/26/19 3:31,Kentucky,1965,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10884986630,7/26/19 3:27,7/26/19 3:31,North Carolina,1972,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884983537,7/26/19 3:24,7/26/19 3:28,California,1946,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884980196,7/26/19 3:22,7/26/19 3:25,Florida,1973,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 2,Female,Male,Female,Male
-surveymonkey,10884974398,7/26/19 3:13,7/26/19 3:17,Utah,1963,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10884974315,7/26/19 3:17,7/26/19 3:22,Ohio,1959,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884970707,7/26/19 3:14,7/26/19 3:22,Georgia,1963,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 1,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10884968777,7/26/19 3:11,7/26/19 3:13,Utah,1979,male,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884966062,7/26/19 3:11,7/26/19 3:15,Michigan,1956,female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10884964027,7/26/19 3:09,7/26/19 3:14,Wyoming,1935,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10884962485,7/26/19 3:04,7/26/19 3:08,Oklahoma,1971,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10884962084,7/26/19 3:08,7/26/19 3:14,Tennessee,1983,male,White / Caucasian,"Less thanÂ $10,000",Doctoral Degree,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884960271,7/26/19 3:06,7/26/19 3:08,Florida,1961,female,Hispanic,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 4,Image 3,Male,Female,Male,Female
-surveymonkey,10884957331,7/26/19 2:59,7/26/19 3:04,California,1967,male,White / Caucasian,"Less thanÂ $10,000",Associate Degree (2-year),Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884957111,7/26/19 3:00,7/26/19 3:04,New York,1971,male,Asian / Pacific Islander,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10884955834,7/26/19 3:00,7/26/19 3:03,Pennsylvania,1966,female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884949384,7/26/19 2:58,7/26/19 3:02,Arizona,1992,female,Hispanic,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10884948785,7/26/19 2:57,7/26/19 3:02,Texas,1940,female,White / Caucasian,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884947558,7/26/19 2:56,7/26/19 3:00,Massachusetts,1967,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884945373,7/26/19 2:54,7/26/19 2:58,Illinois,1995,female,Black or African American,"$10,000Â to $49,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884945179,7/26/19 2:52,7/26/19 2:55,West Virginia,1989,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884944761,7/26/19 2:54,7/26/19 2:56,New York,1969,female,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884943635,7/26/19 2:50,7/26/19 2:53,West Virginia,1950,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 1,Image 4,Image 1,Image 4,Male,Male,Female,Female
-surveymonkey,10884943524,7/26/19 2:51,7/26/19 2:53,Virginia,1973,male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884940547,7/26/19 2:46,7/26/19 2:51,New York,1965,male,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
-surveymonkey,10884936961,7/26/19 2:44,7/26/19 2:48,Maryland,1960,female,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884936639,7/26/19 2:47,7/26/19 2:52,Florida,1955,female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
-surveymonkey,10884929966,7/26/19 2:38,7/26/19 2:42,Connecticut,1962,male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10884929782,7/26/19 2:42,7/26/19 2:44,Louisiana,1952,male,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 2,Image 3,Image 2,Image 4,Male,Male,Female,Female
-surveymonkey,10884928532,7/26/19 2:41,7/26/19 2:45,Nebraska,1952,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 1,Female,Female,Female,Male
-surveymonkey,10884926098,7/26/19 2:39,7/26/19 2:42,California,1984,female,Hispanic,"$150,000 to $199,999",High School Graduate,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10884923640,7/26/19 2:37,7/26/19 2:41,Oklahoma,1971,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10884920273,7/26/19 2:35,7/26/19 2:38,California,1995,male,Asian / Pacific Islander,"$200,000 or more",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884919199,7/26/19 2:34,7/26/19 2:38,Virginia,1955,female,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
-surveymonkey,10884915778,7/26/19 2:31,7/26/19 2:34,Pennsylvania,1966,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 3,Male,Male,Male,Female
-surveymonkey,10884914959,7/26/19 2:31,7/26/19 2:32,New York,1964,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10884913752,7/26/19 2:24,7/26/19 2:32,Michigan,1971,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 1,Male,Female,Female,Male
-surveymonkey,10884910900,7/26/19 2:28,7/26/19 2:28,New York,1973,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,,,,,NULL,NULL,NULL,NULL
-surveymonkey,10884906991,7/26/19 2:24,7/26/19 2:28,Massachusetts,1955,male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 1,Image 4,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884906005,7/26/19 2:20,7/26/19 2:24,New Jersey,1968,female,Hispanic,"$10,000Â to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884904284,7/26/19 2:13,7/26/19 2:23,Michigan,1948,female,White / Caucasian,"$50,000 and $99,999",Doctoral Degree,Image 1,Image 1,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884900197,7/26/19 2:16,7/26/19 2:20,Florida,1960,female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 2,Image 3,Image 3,Male,Female,Male,Female
-surveymonkey,10884899092,7/26/19 2:18,7/26/19 2:19,Michigan,1966,male,Hispanic,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 1,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10884889614,7/26/19 2:11,7/26/19 2:17,Connecticut,1943,male,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 2,Male,Female,Male,Male
-surveymonkey,10884888888,7/26/19 2:08,7/26/19 2:11,Indiana,1972,male,Multiple ethnicities,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10884888835,7/26/19 2:11,7/26/19 2:14,Utah,1976,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884887551,7/26/19 2:09,7/26/19 2:10,New Jersey,1958,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884883459,7/26/19 2:07,7/26/19 2:08,Illinois,1992,male,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10884881763,7/26/19 2:05,7/26/19 2:13,Washington,1965,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 3,Image 1,Male,Female,Male,Male
-surveymonkey,10884876842,7/26/19 2:03,7/26/19 2:04,Texas,1960,male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884876482,7/26/19 2:02,7/26/19 2:04,Oregon,1972,female,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10884868881,7/26/19 1:56,7/26/19 2:00,Pennsylvania,1961,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 1,Image 1,Image 3,Image 2,Male,Female,Male,Male
-surveymonkey,10884867704,7/26/19 1:56,7/26/19 1:57,California,1988,male,Asian / Pacific Islander,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 3,Image 1,Image 4,Female,Male,Female,Female
-surveymonkey,10884867562,7/26/19 1:55,7/26/19 2:00,New Jersey,1969,male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 3,Female,Male,Female,Female
-surveymonkey,10884865058,7/26/19 1:53,7/26/19 2:05,Texas,1959,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884863291,7/26/19 1:52,7/26/19 2:07,Florida,1979,female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 3,Image 2,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10884861641,7/26/19 1:51,7/26/19 1:53,Colorado,1959,male,White / Caucasian,"$200,000 or more",Associate Degree (2-year),Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
-surveymonkey,10884857561,7/26/19 1:48,7/26/19 1:54,Ohio,1962,male,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 1,Image 4,Image 4,Image 2,Male,Male,Male,Male
-surveymonkey,10884855435,7/26/19 1:47,7/26/19 1:47,Texas,1975,male,Black or African American,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 3,Image 1,Image 4,Image 4,Female,Female,Male,Female
-surveymonkey,10884852754,7/26/19 1:44,7/26/19 1:47,Ohio,1969,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10884850309,7/26/19 1:43,7/26/19 1:44,Ohio,1969,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10884846075,7/26/19 1:39,7/26/19 1:44,North Carolina,1940,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 1,Image 2,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884844797,7/26/19 1:37,7/26/19 1:39,Alabama,1986,female,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884839868,7/26/19 1:30,7/26/19 1:35,Florida,1974,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884839453,7/26/19 1:31,7/26/19 1:35,Georgia,1957,male,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884839276,7/26/19 1:34,7/26/19 1:36,Florida,1966,male,Black or African American,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
-surveymonkey,10884837247,7/26/19 1:33,7/26/19 1:34,Michigan,1953,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 4,Image 4,Male,Female,Male,Female
-surveymonkey,10884836079,7/26/19 1:30,7/26/19 1:32,North Carolina,1999,male,Black or African American,"$10,000Â to $49,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884827771,7/26/19 1:25,7/26/19 1:28,Arizona,1959,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10884827577,7/26/19 1:11,7/26/19 1:25,Tennessee,1972,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 1,Image 2,Image 1,Image 1,Male,Female,Female,Male
-surveymonkey,10884825719,7/26/19 1:21,7/26/19 1:24,New York,2000,female,Hispanic,"Less thanÂ $10,000",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10884825497,7/26/19 1:17,7/26/19 1:33,North Carolina,1995,male,Black or African American,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 3,Image 1,Male,Female,Male,Male
-surveymonkey,10884824986,7/26/19 1:25,7/26/19 1:27,Tennessee,1970,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
-surveymonkey,10884819763,7/26/19 1:19,7/26/19 1:21,New York,1961,male,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
-surveymonkey,10884818328,7/26/19 1:13,7/26/19 1:18,Oregon,1997,male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10884817861,7/26/19 1:18,7/26/19 1:22,Minnesota,1974,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 3,Image 4,Male,Female,Male,Female
-surveymonkey,10884815410,7/26/19 1:13,7/26/19 1:16,Florida,1970,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 3,Image 3,Female,Male,Male,Female
-surveymonkey,10884813747,7/26/19 1:14,7/26/19 1:18,Washington,1949,female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884809878,7/26/19 1:07,7/26/19 1:11,Illinois,1972,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
-surveymonkey,10884802552,7/26/19 1:00,7/26/19 1:06,Tennessee,1965,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884799929,7/26/19 1:04,7/26/19 1:07,South Dakota,1966,female,White / Caucasian,"$150,000 to $199,999",Doctoral Degree,Image 2,Image 1,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10884795896,7/26/19 0:56,7/26/19 1:01,Washington,1950,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 2,Female,Male,Female,Male
-surveymonkey,10884791427,7/26/19 0:53,7/26/19 0:57,Florida,1957,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
-surveymonkey,10884790039,7/26/19 0:40,7/26/19 0:56,Alabama,1953,female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10884786411,7/26/19 0:53,7/26/19 0:57,North Carolina,1972,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10884784084,7/26/19 0:48,7/26/19 0:51,Kentucky,1968,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 3,Female,Male,Male,Female
-surveymonkey,10884782911,7/26/19 0:49,7/26/19 0:55,Oklahoma,1981,female,White / Caucasian,"$10,000Â to $49,999",PreferÂ NOT to disclose,Image 2,Image 3,Image 1,Image 4,Male,Male,Female,Female
-surveymonkey,10884782852,7/26/19 0:50,7/26/19 0:52,Oregon,2000,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884782586,7/26/19 0:50,7/26/19 0:50,Georgia,1999,female,Hispanic,"Less thanÂ $10,000",High School Graduate,,,,,NULL,NULL,NULL,NULL
-surveymonkey,10884780831,7/26/19 0:48,7/26/19 0:53,West Virginia,1974,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884780253,7/26/19 0:43,7/26/19 0:48,Texas,1974,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884769444,7/26/19 0:36,7/26/19 0:39,Michigan,1972,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
-surveymonkey,10884766287,7/26/19 0:35,7/26/19 0:36,California,1963,female,Black or African American,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10884764560,7/26/19 0:33,7/26/19 0:35,Louisiana,2000,male,Others not mentioned,"Less thanÂ $10,000",High School Graduate,Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10884758525,7/26/19 0:28,7/26/19 0:30,California,1972,female,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 4,Image 2,Male,Female,Male,Male
-surveymonkey,10884758447,7/26/19 0:18,7/26/19 0:30,Tennessee,1989,female,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 3,Image 1,Image 4,Image 3,Female,Female,Male,Female
-surveymonkey,10884756162,7/26/19 0:25,7/26/19 0:28,California,1990,male,Hispanic,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
-surveymonkey,10884754269,7/26/19 0:25,7/26/19 0:27,Florida,1985,male,Black or African American,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884753841,7/26/19 0:20,7/26/19 0:26,Colorado,1956,male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884752113,7/26/19 0:24,7/26/19 0:33,Virginia,1970,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 4,Image 4,Male,Female,Male,Female
-surveymonkey,10884751190,7/26/19 0:24,7/26/19 0:28,Texas,1965,male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884749078,7/26/19 0:20,7/26/19 0:25,North Carolina,1969,female,White / Caucasian,Prefer NOT to disclose,"Professional Degree (MD, JD etc.)",Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
-surveymonkey,10884748758,7/26/19 0:21,7/26/19 0:22,Maine,2000,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 1,Image 3,Image 1,Image 3,Male,Male,Female,Female
-surveymonkey,10884744239,7/26/19 0:16,7/26/19 0:18,California,1970,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884742152,7/26/19 0:14,7/26/19 0:17,California,1993,male,Prefer not to disclose,"$10,000Â to $49,999",High School Graduate,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10884735538,7/26/19 0:08,7/26/19 0:11,Arizona,1978,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884733532,7/26/19 0:10,7/26/19 0:11,California,1976,male,Asian / Pacific Islander,"$10,000Â to $49,999","Professional Degree (MD, JD etc.)",Image 3,Image 2,,,Female,Female,NULL,NULL
-surveymonkey,10884730374,7/26/19 0:02,7/26/19 0:07,Virginia,1964,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10884728653,7/26/19 0:06,7/26/19 0:10,California,1967,female,White / Caucasian,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884725310,7/26/19 0:02,7/26/19 0:03,Pennsylvania,1990,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10884723211,7/26/19 0:01,7/26/19 0:04,Texas,1973,female,White / Caucasian,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 4,Image 1,,,Female,Female,NULL,NULL
-surveymonkey,10884719023,7/25/19 23:57,7/26/19 0:02,Texas,1972,female,Hispanic,"$150,000 to $199,999",Doctoral Degree,Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884718812,7/25/19 23:50,7/25/19 23:58,Florida,1969,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884718752,7/25/19 23:57,7/25/19 23:58,Hawaii,1990,male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 1,Male,Male,Female,Male
-surveymonkey,10884715635,7/25/19 23:46,7/25/19 23:55,Hawaii,1968,female,Others not mentioned,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
-surveymonkey,10884714478,7/25/19 23:53,7/26/19 0:00,Kansas,1973,female,White / Caucasian,"$150,000 to $199,999","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10884705193,7/25/19 23:46,7/25/19 23:48,New Jersey,1968,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 1,Image 3,Female,Male,Female,Female
-surveymonkey,10884703781,7/25/19 22:56,7/25/19 23:45,New York,1968,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 4,Male,Female,Female,Female
-surveymonkey,10884700927,7/25/19 23:42,7/25/19 23:44,North Carolina,1971,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884697523,7/25/19 23:35,7/25/19 23:39,Ohio,1991,male,Others not mentioned,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884697341,7/25/19 23:39,7/25/19 23:42,Illinois,1992,male,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 2,Image 4,Image 2,Image 2,Male,Male,Female,Male
-surveymonkey,10884693872,7/25/19 23:31,7/25/19 23:36,California,1995,female,Hispanic,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
-surveymonkey,10884691564,7/25/19 23:28,7/25/19 23:34,California,1966,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 4,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10884690572,7/25/19 23:31,7/25/19 23:33,Ohio,1967,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884689009,7/25/19 23:31,7/25/19 23:34,Massachusetts,1979,female,White / Caucasian,"$10,000Â to $49,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10884685910,7/25/19 23:25,7/25/19 23:29,California,1965,female,White / Caucasian,"$200,000 or more",Associate Degree (2-year),Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884685838,7/25/19 23:28,7/25/19 23:30,California,1965,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884683666,7/25/19 23:26,7/25/19 23:29,California,1965,male,Asian / Pacific Islander,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10884681179,7/25/19 23:17,7/25/19 23:24,Texas,1971,female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 1,Image 4,Image 3,Female,Female,Male,Female
-surveymonkey,10884679926,7/25/19 23:23,7/25/19 23:24,Texas,1967,male,Hispanic,"$100,000 to $149,999",High School Graduate,Image 1,Image 3,Image 4,Image 1,Male,Male,Male,Male
-surveymonkey,10884678677,7/25/19 23:22,7/25/19 23:23,California,1985,male,White / Caucasian,"$50,000 and $99,999",PreferÂ NOT to disclose,Image 1,Image 2,Image 4,Image 3,Male,Female,Male,Female
-surveymonkey,10884678005,7/25/19 23:21,7/25/19 23:25,New York,1956,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884675439,7/25/19 23:15,7/25/19 23:19,California,1984,female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 1,Image 4,Female,Male,Female,Female
-surveymonkey,10884675154,7/25/19 23:18,7/25/19 23:21,Washington,1987,male,Asian / Pacific Islander,"$150,000 to $199,999",Doctoral Degree,,,,,NULL,NULL,NULL,NULL
-surveymonkey,10884675082,7/25/19 23:17,7/25/19 23:19,Alabama,1973,female,White / Caucasian,"Less thanÂ $10,000",PreferÂ NOT to disclose,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884670153,7/25/19 23:14,7/25/19 23:17,Tennessee,1948,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 1,Image 1,Image 1,Image 4,Male,Female,Female,Female
-surveymonkey,10884664985,7/25/19 23:06,7/25/19 23:10,Indiana,1969,female,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10884664422,7/25/19 23:08,7/25/19 23:14,Oregon,1957,male,American Indian or Alaskan Native,"$10,000Â to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884661254,7/25/19 23:04,7/25/19 23:07,South Carolina,1974,male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884657088,7/25/19 23:03,7/25/19 23:05,California,1992,male,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884654668,7/25/19 22:48,7/25/19 23:01,Kentucky,1948,female,Black or African American,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
-surveymonkey,10884653990,7/25/19 22:59,7/25/19 23:01,Georgia,1962,female,Black or African American,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
-surveymonkey,10884653061,7/25/19 22:59,7/25/19 23:00,Arkansas,1996,female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 2,Image 3,Image 1,Male,Female,Male,Male
-surveymonkey,10884648785,7/25/19 22:56,7/25/19 22:57,California,1974,female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10884647257,7/25/19 22:50,7/25/19 22:54,Minnesota,1978,male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 1,Image 2,Image 4,Image 2,Male,Female,Male,Male
-surveymonkey,10884644758,7/25/19 22:52,7/25/19 22:55,Nevada,1948,female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884643531,7/25/19 22:48,7/25/19 22:51,Texas,1999,female,Hispanic,"$10,000Â to $49,999",High School Graduate,Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
-surveymonkey,10884640639,7/25/19 22:44,7/25/19 22:48,California,1997,female,White / Caucasian,"Less thanÂ $10,000",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884640470,7/25/19 22:47,7/25/19 22:52,Tennessee,1940,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 2,Image 3,Male,Male,Female,Female
-surveymonkey,10884640136,7/25/19 22:46,7/25/19 22:47,California,1976,male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
-surveymonkey,10884636750,7/25/19 22:44,7/25/19 22:48,Arizona,1969,female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
-surveymonkey,10884633503,7/25/19 22:38,7/25/19 22:41,California,1954,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
-surveymonkey,10884631354,7/25/19 22:39,7/25/19 22:45,California,1940,male,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884627634,7/25/19 22:35,7/25/19 22:40,Montana,1960,female,White / Caucasian,"$10,000Â to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
-surveymonkey,10884621957,7/25/19 22:29,7/25/19 22:30,Oregon,1985,male,Prefer not to disclose,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
-surveymonkey,10884621929,7/25/19 22:29,7/25/19 22:30,Colorado,1989,female,White / Caucasian,"Less thanÂ $10,000",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
-surveymonkey,10884621881,7/25/19 22:30,7/25/19 22:34,Georgia,1958,male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 2,Image 1,Image 3,Image 2,Male,Female,Male,Male
-surveymonkey,10884620349,7/25/19 22:29,7/25/19 22:33,Georgia,1959,female,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
-surveymonkey,10884617532,7/25/19 22:26,7/25/19 22:31,Alabama,1959,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884616511,7/25/19 22:25,7/25/19 22:29,Michigan,1963,female,White / Caucasian,Prefer NOT to disclose,PreferÂ NOT to disclose,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
-surveymonkey,10884614266,7/25/19 22:23,7/25/19 22:30,Oregon,1949,male,White / Caucasian,"$10,000Â to $49,999",Associate Degree (2-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
-surveymonkey,10884613623,7/25/19 22:22,7/25/19 22:26,Utah,1967,female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 3,Image 2,Female,Female,Male,Male
-surveymonkey,10884610196,7/25/19 22:14,7/25/19 22:19,Pennsylvania,1958,male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
-surveymonkey,10884608557,7/25/19 22:18,7/25/19 22:20,California,1966,female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 1,Image 3,Female,Female,Female,Female
-surveymonkey,10884607778,7/25/19 22:17,7/25/19 22:20,Texas,1958,male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 1,Female,Female,Female,Male
-surveymonkey,10884605175,7/25/19 22:13,7/25/19 22:15,New York,1986,female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
-surveymonkey,10884604888,7/25/19 22:13,7/25/19 22:14,South Carolina,1999,male,White / Caucasian,"Less thanÂ $10,000",Associate Degree (2-year),Image 2,Image 3,Image 1,Image 4,Male,Male,Female,Female
-surveymonkey,10884603967,7/25/19 22:13,7/25/19 22:17,Oregon,1961,female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
-surveymonkey,10880647389,7/24/19 8:58,7/25/19 0:24,Alabama,1999,male,American Indian or Alaskan Native,"Less thanÂ $10,000",High School Graduate,Image 3,Image 1,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10886483777,7/26/19 17:08,7/26/19 17:13,Texas,1993,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 3,Image 3,Female,Male,Male,Female
+surveymonkey,10886483199,7/26/19 17:12,7/26/19 17:18,Kansas,2000,Male,Asian / Pacific Islander,Prefer NOT to disclose,Associate Degree (2-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10886480289,7/26/19 17:07,7/26/19 17:09,California,1983,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10886463334,7/26/19 16:53,7/26/19 16:55,Georgia,1977,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886452766,7/26/19 16:43,7/26/19 16:44,Vermont,1999,Male,White / Caucasian,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 2,Image 2,,Image 3,Male,Female,NULL,Female
+surveymonkey,10886452690,7/26/19 16:43,7/26/19 16:48,Massachusetts,1962,Female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10886451572,7/26/19 16:41,7/26/19 16:42,Texas,1985,Female,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10886441710,7/26/19 16:31,7/26/19 16:33,Illinois,1974,Male,Asian / Pacific Islander,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10886438244,7/26/19 16:29,7/26/19 16:52,Louisiana,1996,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10886430997,7/26/19 16:24,7/26/19 16:27,Utah,1991,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 4,Image 3,Male,Male,Male,Female
+surveymonkey,10886414821,7/26/19 16:09,7/26/19 16:12,Connecticut,1968,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 1,Female,Female,Female,Male
+surveymonkey,10886411797,7/26/19 16:04,7/26/19 16:07,Illinois,1996,Male,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10886410872,7/26/19 16:04,7/26/19 16:06,Colorado,1988,Male,Prefer not to disclose,Prefer NOT to disclose,High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886403975,7/26/19 15:57,7/26/19 16:00,Tennessee,1966,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 1,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10886399508,7/26/19 15:56,7/26/19 16:00,Florida,1992,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10886396185,7/26/19 15:50,7/26/19 15:54,California,1983,Male,Hispanic,"$10,000Î_to $49,999",PreferÎ_NOT to disclose,Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10886392187,7/26/19 15:47,7/26/19 15:51,Colorado,1995,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10886383433,7/26/19 15:43,7/26/19 15:48,New York,1973,Female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10886380323,7/26/19 15:35,7/26/19 15:41,Maine,1986,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10886376990,7/26/19 15:38,7/26/19 15:42,California,1998,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
+surveymonkey,10886375227,7/26/19 15:34,7/26/19 15:37,North Carolina,1995,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10886369859,7/26/19 15:32,7/26/19 15:34,Massachusetts,1985,Male,Asian / Pacific Islander,"$10,000Î_to $49,999",Doctoral Degree,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886369177,7/26/19 15:29,7/26/19 15:32,Florida,1981,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10886356010,7/26/19 15:18,7/26/19 15:22,Minnesota,1989,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10886348847,7/26/19 15:16,7/26/19 15:20,Missouri,2000,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10886343102,7/26/19 15:10,7/26/19 15:12,New York,2000,Male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 2,Image 3,Image 1,Image 3,Male,Male,Female,Female
+surveymonkey,10886334753,7/26/19 15:05,7/26/19 15:06,South Carolina,1998,Male,White / Caucasian,"Less thanÎ_$10,000",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10886333163,7/26/19 15:05,7/26/19 15:06,Texas,1975,Male,Black or African American,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
+surveymonkey,10886330609,7/26/19 13:50,7/26/19 15:06,California,1986,Male,White / Caucasian,"$150,000 to $199,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886314022,7/26/19 14:50,7/26/19 14:51,Florida,1965,Male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10886308589,7/26/19 14:42,7/26/19 14:48,Minnesota,1986,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886308384,7/26/19 14:44,7/26/19 14:47,Minnesota,1981,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10886307305,7/26/19 14:46,7/26/19 14:47,Texas,1993,Male,Asian / Pacific Islander,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10886289339,7/26/19 14:32,7/26/19 14:35,Florida,1947,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886289328,7/26/19 14:34,7/26/19 14:35,Mississippi,1996,Female,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10886277700,7/26/19 14:25,7/26/19 14:41,California,1980,Female,Black or African American,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
+surveymonkey,10886270683,7/26/19 14:18,7/26/19 14:23,Hawaii,1999,Female,Asian / Pacific Islander,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886261086,7/26/19 14:14,7/26/19 14:17,Florida,1981,Male,Black or African American,"Less thanÎ_$10,000",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10886259631,7/26/19 14:13,7/26/19 14:16,Illinois,1967,Male,White / Caucasian,"$10,000Î_to $49,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886259051,7/26/19 14:15,7/26/19 14:18,California,1973,Male,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 3,Male,Female,Male,Female
+surveymonkey,10886258959,7/26/19 14:14,7/26/19 14:15,Indiana,1965,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886241037,7/26/19 14:01,7/26/19 14:04,California,1986,Female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 1,Image 1,Female,Male,Female,Male
+surveymonkey,10886240283,7/26/19 13:59,7/26/19 14:04,Pennsylvania,1992,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10886233519,7/26/19 13:57,7/26/19 14:00,California,1989,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886232001,7/26/19 13:57,7/26/19 13:59,Texas,1984,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886230836,7/26/19 13:58,7/26/19 13:59,Arizona,1991,Male,Hispanic,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 4,,,Male,Male,NULL,NULL
+surveymonkey,10886220911,7/26/19 13:52,7/26/19 13:54,New York,1999,Female,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886210306,7/26/19 13:43,7/26/19 13:46,Oregon,1987,Male,Asian / Pacific Islander,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10886208651,7/26/19 13:42,7/26/19 13:45,Florida,1981,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886200449,7/26/19 13:38,7/26/19 13:41,New York,1998,Female,Asian / Pacific Islander,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10886186766,7/26/19 13:32,7/26/19 13:33,Kentucky,1974,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10886185974,7/26/19 13:30,7/26/19 13:33,New York,1986,Male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 1,Image 1,Male,Male,Female,Male
+surveymonkey,10886183525,7/26/19 13:31,7/26/19 13:34,Michigan,1990,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10886182365,7/26/19 13:27,7/26/19 13:31,Texas,1978,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10886173852,7/26/19 13:24,7/26/19 13:26,Texas,1998,Male,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886167470,7/26/19 13:22,7/26/19 13:26,New Jersey,2000,Male,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 4,Image 4,Image 4,Image 3,Female,Male,Male,Female
+surveymonkey,10886164902,7/26/19 13:15,7/26/19 13:21,Texas,2001,Female,Others not mentioned,"Less thanÎ_$10,000",Bachelor's Degree (4-year),Image 3,Image 1,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10886164257,7/26/19 13:20,7/26/19 13:23,Arkansas,1985,Female,Multiple ethnicities,"Less thanÎ_$10,000",High School Graduate,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10886156043,7/26/19 13:16,7/26/19 13:17,Michigan,1982,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10886155714,7/26/19 13:15,7/26/19 13:18,Illinois,2000,Female,Hispanic,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10886155390,7/26/19 13:15,7/26/19 13:15,Alabama,1989,Male,Asian / Pacific Islander,"Less thanÎ_$10,000",Associate Degree (2-year),Image 2,Image 3,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10886155138,7/26/19 13:14,7/26/19 13:15,Oklahoma,1997,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10886153152,7/26/19 13:11,7/26/19 13:14,Colorado,1978,Female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886132117,7/26/19 13:01,7/26/19 13:03,Florida,1988,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886131638,7/26/19 13:02,7/26/19 13:05,New York,1987,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10886125970,7/26/19 12:57,7/26/19 12:59,North Carolina,1992,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 2,Male,Female,Male,Male
+surveymonkey,10886125560,7/26/19 12:59,7/26/19 13:00,Georgia,1991,Female,White / Caucasian,"Less thanÎ_$10,000",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10886122974,7/26/19 12:56,7/26/19 12:58,California,1967,Female,White / Caucasian,"Less thanÎ_$10,000",Associate Degree (2-year),Image 4,Image 4,Image 1,Image 4,Female,Male,Female,Female
+surveymonkey,10886122856,7/26/19 12:56,7/26/19 12:58,New York,1950,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10886115577,7/26/19 12:50,7/26/19 12:54,Georgia,1972,Female,Black or African American,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10886109890,7/26/19 12:46,7/26/19 12:51,Montana,1984,Female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10886108151,7/26/19 12:46,7/26/19 12:50,Texas,1992,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 2,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10886107145,7/26/19 12:47,7/26/19 12:49,North Carolina,1983,Female,White / Caucasian,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10886105689,7/26/19 12:48,7/26/19 12:51,Pennsylvania,1966,Female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886094549,7/26/19 12:42,7/26/19 12:48,Texas,1991,Female,White / Caucasian,"$10,000Î_to $49,999",Doctoral Degree,Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10886086757,7/26/19 12:38,7/26/19 12:42,California,1969,Female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 3,Image 1,Male,Female,Male,Male
+surveymonkey,10886086544,7/26/19 12:37,7/26/19 12:42,California,1998,Female,Multiple ethnicities,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
+surveymonkey,10886083098,7/26/19 12:36,7/26/19 12:45,Florida,1979,Female,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886077843,7/26/19 12:33,7/26/19 12:35,Georgia,1991,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 3,Image 4,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10886076982,7/26/19 12:32,7/26/19 12:33,Ohio,1994,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10886076474,7/26/19 12:32,7/26/19 12:36,Louisiana,1973,Female,Hispanic,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 3,Image 3,Female,Male,Male,Female
+surveymonkey,10886073059,7/26/19 12:31,7/26/19 12:32,Illinois,1986,Male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 3,Image 2,Male,Female,Male,Male
+surveymonkey,10886070542,7/26/19 12:29,7/26/19 12:32,Georgia,1995,Male,Multiple ethnicities,"Less thanÎ_$10,000",Associate Degree (2-year),Image 3,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10886062010,7/26/19 12:26,7/26/19 12:32,Connecticut,1965,Female,Asian / Pacific Islander,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 1,Image 3,Female,Male,Female,Female
+surveymonkey,10886059763,7/26/19 12:25,7/26/19 12:27,Massachusetts,1996,Male,White / Caucasian,Prefer NOT to disclose,Associate Degree (2-year),Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10886041744,7/26/19 12:16,7/26/19 12:18,California,1988,Male,Asian / Pacific Islander,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10886030834,7/26/19 12:04,7/26/19 12:12,New Mexico,1980,Female,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10886026692,7/26/19 12:01,7/26/19 12:09,Pennsylvania,1997,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10886019566,7/26/19 12:01,7/26/19 12:06,Indiana,1991,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10886018673,7/26/19 12:03,7/26/19 12:05,Texas,1962,Female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10886016316,7/26/19 12:04,7/26/19 12:18,Texas,1973,Female,Black or African American,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 1,,Image 3,Female,Female,NULL,Female
+surveymonkey,10886015279,7/26/19 12:01,7/26/19 12:03,Ohio,1993,Female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10886014664,7/26/19 12:01,7/26/19 12:03,North Carolina,1992,Male,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10886011483,7/26/19 12:00,7/26/19 12:01,New York,1984,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 3,Male,Male,Female,Female
+surveymonkey,10886010028,7/26/19 12:00,7/26/19 12:03,Illinois,1980,Female,Hispanic,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10886008697,7/26/19 11:56,7/26/19 12:00,New Jersey,1984,Female,White / Caucasian,"$10,000Î_to $49,999",PreferÎ_NOT to disclose,Image 3,Image 1,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10886007605,7/26/19 11:56,7/26/19 11:59,New York,1993,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
+surveymonkey,10885998310,7/26/19 11:50,7/26/19 11:54,California,1994,Male,Multiple ethnicities,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885997446,7/26/19 11:51,7/26/19 11:54,California,1993,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10885987506,7/26/19 11:46,7/26/19 11:49,California,2001,Female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885983918,7/26/19 11:47,7/26/19 11:48,Illinois,1990,Male,White / Caucasian,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 3,Image 2,Image 4,Image 3,Female,Female,Male,Female
+surveymonkey,10885981094,7/26/19 11:45,7/26/19 11:48,Massachusetts,1983,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 4,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10885978679,7/26/19 11:40,7/26/19 11:44,New York,1958,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 4,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885965239,7/26/19 11:30,7/26/19 11:37,California,1988,Male,Asian / Pacific Islander,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 1,Image 1,Male,Female,Female,Male
+surveymonkey,10885959856,7/26/19 11:28,7/26/19 11:34,Texas,2000,Female,Hispanic,Prefer NOT to disclose,High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885955223,7/26/19 11:31,7/26/19 11:34,Florida,1961,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10885953868,7/26/19 11:06,7/26/19 11:31,Massachusetts,1987,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10885953665,7/26/19 11:30,7/26/19 11:34,Arkansas,1971,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10885950920,7/26/19 11:28,7/26/19 11:30,Connecticut,1991,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10885947571,7/26/19 11:23,7/26/19 11:27,Colorado,1991,Male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 4,Male,Female,Female,Female
+surveymonkey,10885943937,7/26/19 11:25,7/26/19 11:27,Pennsylvania,1969,Male,Black or African American,"Less thanÎ_$10,000",High School Graduate,Image 1,Image 3,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10885941838,7/26/19 11:22,7/26/19 11:24,New York,1974,Female,Asian / Pacific Islander,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10885939875,7/26/19 11:16,7/26/19 11:23,North Carolina,1976,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 4,Image 3,Male,Female,Male,Female
+surveymonkey,10885936144,7/26/19 11:16,7/26/19 11:21,Michigan,1951,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10885934814,7/26/19 11:19,7/26/19 11:21,Wisconsin,1978,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 4,Image 3,Image 1,Male,Male,Male,Male
+surveymonkey,10885933528,7/26/19 11:13,7/26/19 11:20,Ohio,1978,Female,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 2,Female,Male,Female,Male
+surveymonkey,10885931495,7/26/19 11:19,7/26/19 11:21,Connecticut,1967,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
+surveymonkey,10885915348,7/26/19 11:08,7/26/19 11:10,California,1978,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10885912133,7/26/19 11:05,7/26/19 11:09,California,1954,Male,Black or African American,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10885901520,7/26/19 11:03,7/26/19 11:05,West Virginia,1993,Female,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10885894070,7/26/19 10:58,7/26/19 10:59,Georgia,1992,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885882764,7/26/19 10:52,7/26/19 10:53,Georgia,1981,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10885879787,7/26/19 10:49,7/26/19 10:52,North Carolina,1974,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885874730,7/26/19 10:46,7/26/19 10:49,Michigan,2000,Female,White / Caucasian,Prefer NOT to disclose,Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885874388,7/26/19 10:46,7/26/19 10:49,Washington,1971,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885871876,7/26/19 10:46,7/26/19 10:48,Virginia,1990,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10885870452,7/26/19 10:46,7/26/19 10:47,Nebraska,1991,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10885869800,7/26/19 10:46,7/26/19 10:47,Arizona,1990,Male,Asian / Pacific Islander,"$50,000 and $99,999",Doctoral Degree,Image 3,Image 1,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10885867998,7/26/19 10:46,7/26/19 10:49,Texas,2000,Female,White / Caucasian,"$200,000 or more",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885867355,7/26/19 10:45,7/26/19 10:49,Michigan,1990,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10885853804,7/26/19 10:39,7/26/19 10:45,Wisconsin,1974,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10885844950,7/26/19 10:34,7/26/19 10:37,Pennsylvania,1970,Female,Asian / Pacific Islander,"$100,000 to $149,999",PreferÎ_NOT to disclose,Image 2,Image 3,Image 3,Image 1,Male,Male,Male,Male
+surveymonkey,10885835774,7/26/19 10:28,7/26/19 10:30,Florida,1997,Male,White / Caucasian,"Less thanÎ_$10,000",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10885824335,7/26/19 10:16,7/26/19 10:24,Pennsylvania,1996,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10885817088,7/26/19 10:06,7/26/19 10:21,Missouri,2001,Female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885812489,7/26/19 10:18,7/26/19 10:22,Florida,1994,Female,Prefer not to disclose,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10885788563,7/26/19 10:04,7/26/19 10:07,New Mexico,1989,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10885782075,7/26/19 10:00,7/26/19 10:04,Iowa,1970,Male,Prefer not to disclose,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885779100,7/26/19 10:02,7/26/19 10:03,Florida,1996,Male,Black or African American,"$10,000Î_to $49,999",Doctoral Degree,Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10885772745,7/26/19 9:55,7/26/19 9:59,Arizona,1987,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
+surveymonkey,10885768860,7/26/19 9:56,7/26/19 9:57,Ohio,1969,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10885765748,7/26/19 9:52,7/26/19 9:56,Maryland,1977,Female,Black or African American,"$100,000 to $149,999",High School Graduate,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885765057,7/26/19 9:55,7/26/19 9:57,New York,1992,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 2,Image 2,Image 4,Image 1,Male,Female,Male,Male
+surveymonkey,10885764318,7/26/19 9:51,7/26/19 9:55,Virginia,1969,Female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10885755372,7/26/19 9:46,7/26/19 9:51,Washington,1981,Female,White / Caucasian,"$150,000 to $199,999",Associate Degree (2-year),Image 2,Image 3,Image 2,Image 4,Male,Male,Female,Female
+surveymonkey,10885750588,7/26/19 9:46,7/26/19 9:49,Florida,1995,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 4,Image 3,Male,Female,Male,Female
+surveymonkey,10885743700,7/26/19 9:45,7/26/19 9:49,Wisconsin,1998,Male,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10885743678,7/26/19 9:45,7/26/19 9:48,New Jersey,1959,Male,Multiple ethnicities,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885743310,7/26/19 9:43,7/26/19 9:45,Michigan,1999,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885737064,7/26/19 9:10,7/26/19 9:42,Texas,1980,Female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 3,Image 1,Image 4,Image 4,Female,Female,Male,Female
+surveymonkey,10885734199,7/26/19 9:41,7/26/19 9:45,Michigan,1978,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10885732656,7/26/19 9:31,7/26/19 9:37,Connecticut,1997,Male,Hispanic,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885729183,7/26/19 9:33,7/26/19 9:39,California,1992,Female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 3,Image 1,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10885724105,7/26/19 9:33,7/26/19 9:36,New York,1993,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10885714561,7/26/19 9:29,7/26/19 9:32,Maryland,1990,Male,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 1,Image 3,Female,Male,Female,Female
+surveymonkey,10885713515,7/26/19 9:30,7/26/19 9:34,California,1998,Female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10885705887,7/26/19 9:26,7/26/19 9:29,Illinois,1984,Female,Black or African American,"$10,000Î_to $49,999",Associate Degree (2-year),Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885705459,7/26/19 9:23,7/26/19 9:27,Washington,1991,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 4,Female,Male,Female,Female
+surveymonkey,10885687580,7/26/19 9:19,7/26/19 9:21,California,1998,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885683275,7/26/19 9:15,7/26/19 9:17,Wisconsin,1991,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885657431,7/26/19 9:01,7/26/19 9:06,Virginia,1978,Female,Multiple ethnicities,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885644366,7/26/19 9:00,7/26/19 9:05,Georgia,1978,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 1,Male,Female,Female,Male
+surveymonkey,10885619429,7/26/19 8:50,7/26/19 8:53,Louisiana,1994,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10885614043,7/26/19 8:30,7/26/19 8:48,Oregon,1983,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10885609120,7/26/19 8:45,7/26/19 8:48,Washington,1953,Male,White / Caucasian,"$200,000 or more",High School Graduate,Image 4,Image 3,,,Female,Male,NULL,NULL
+surveymonkey,10885594287,7/26/19 8:34,7/26/19 8:40,California,1985,Male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 3,Image 4,Male,Female,Male,Female
+surveymonkey,10885590826,7/26/19 8:38,7/26/19 8:42,Virginia,1980,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 1,Male,Female,Female,Male
+surveymonkey,10885557897,7/26/19 8:25,7/26/19 8:27,Georgia,1985,Female,Hispanic,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 3,Image 1,Female,Female,Male,Male
+surveymonkey,10885544083,7/26/19 8:18,7/26/19 8:20,Georgia,1982,Male,Prefer not to disclose,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10885542343,7/26/19 8:19,7/26/19 8:23,Virginia,1968,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885528776,7/26/19 8:14,7/26/19 8:17,California,1979,Female,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885524840,7/26/19 8:12,7/26/19 8:14,New York,1969,Female,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
+surveymonkey,10885513874,7/26/19 8:04,7/26/19 8:08,Tennessee,1952,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 3,Image 3,Image 1,Male,Male,Male,Male
+surveymonkey,10885510461,7/26/19 8:03,7/26/19 8:07,Nebraska,1953,Male,White / Caucasian,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 1,Image 3,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10885499315,7/26/19 8:02,7/26/19 8:04,Nevada,1973,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885498434,7/26/19 8:00,7/26/19 8:02,New Jersey,2002,Male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885485559,7/26/19 7:57,7/26/19 8:01,Illinois,1965,Male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10885477511,7/26/19 7:50,7/26/19 7:53,Kansas,1991,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10885434094,7/26/19 7:27,7/26/19 7:35,New Jersey,1982,Male,Multiple ethnicities,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10885400250,7/26/19 7:20,7/26/19 7:27,Texas,1967,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10885396930,7/26/19 7:19,7/26/19 7:25,North Carolina,1968,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10885377153,7/26/19 7:11,7/26/19 7:15,New Jersey,1969,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885255013,7/26/19 6:15,7/26/19 6:19,Utah,1992,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10885233110,7/26/19 6:04,7/26/19 6:06,California,1974,Male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 4,Image 3,Female,Male,Male,Female
+surveymonkey,10885193082,7/26/19 5:44,7/26/19 5:45,Indiana,1965,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),,,,,NULL,NULL,NULL,NULL
+surveymonkey,10885122672,7/26/19 5:04,7/26/19 5:10,Maryland,1949,Male,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 1,Image 4,Male,Male,Female,Female
+surveymonkey,10885122258,7/26/19 5:04,7/26/19 5:07,Texas,1967,Male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10885115082,7/26/19 5:00,7/26/19 5:01,New Jersey,1949,Male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),,,,,NULL,NULL,NULL,NULL
+surveymonkey,10885109767,7/26/19 4:56,7/26/19 5:04,North Carolina,1939,Male,White / Caucasian,"$200,000 or more",Doctoral Degree,Image 4,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10885109564,7/26/19 4:56,7/26/19 4:59,Texas,1945,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10885103204,7/26/19 4:52,7/26/19 4:56,Arkansas,1972,Male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10885098929,7/26/19 4:49,7/26/19 4:54,Michigan,1966,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10885092671,7/26/19 4:45,7/26/19 4:49,Pennsylvania,1974,Male,Multiple ethnicities,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10885081079,7/26/19 4:37,7/26/19 4:40,Oregon,1957,Male,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 3,Image 4,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885075783,7/26/19 4:33,7/26/19 4:35,Texas,1943,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
+surveymonkey,10885069912,7/26/19 4:29,7/26/19 4:31,Massachusetts,1950,Male,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 4,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885060426,7/26/19 4:22,7/26/19 4:26,Ohio,1962,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10885051707,7/26/19 4:14,7/26/19 4:16,New York,1979,Male,White / Caucasian,"$150,000 to $199,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10885046424,7/26/19 4:11,7/26/19 4:13,Ohio,1963,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885045578,7/26/19 4:08,7/26/19 4:12,Pennsylvania,1973,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 4,Image 3,Image 1,Male,Male,Male,Male
+surveymonkey,10885040093,7/26/19 4:07,7/26/19 4:17,Florida,1935,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 1,Female,Female,Female,Male
+surveymonkey,10885039129,7/26/19 4:07,7/26/19 4:10,Texas,1971,Female,Hispanic,"Less thanÎ_$10,000",High School Graduate,Image 1,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10885037195,7/26/19 3:40,7/26/19 4:06,North Carolina,1998,Male,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 1,Image 3,Male,Male,Female,Female
+surveymonkey,10885034954,7/26/19 4:04,7/26/19 4:06,Missouri,1962,Female,White / Caucasian,"Less thanÎ_$10,000",PreferÎ_NOT to disclose,Image 2,Image 4,Image 4,Image 4,Male,Male,Male,Female
+surveymonkey,10885034504,7/26/19 4:04,7/26/19 4:08,Florida,1951,Male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
+surveymonkey,10885030387,7/26/19 4:01,7/26/19 4:12,Oklahoma,1959,Female,White / Caucasian,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 2,Image 1,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10885028611,7/26/19 3:54,7/26/19 4:00,Georgia,1967,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10885027739,7/26/19 3:59,7/26/19 4:11,Indiana,1992,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10885026825,7/26/19 3:57,7/26/19 3:58,Colorado,1978,Female,Multiple ethnicities,"$150,000 to $199,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
+surveymonkey,10885023881,7/26/19 3:54,7/26/19 3:56,Maryland,1964,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 4,Female,Male,Female,Female
+surveymonkey,10885022444,7/26/19 3:50,7/26/19 3:55,Virginia,1960,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10885015992,7/26/19 3:50,7/26/19 3:55,Maine,1948,Male,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10885011744,7/26/19 3:47,7/26/19 3:50,Missouri,1983,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 3,Image 4,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10885011073,7/26/19 3:46,7/26/19 3:49,Georgia,1967,Female,Black or African American,"$200,000 or more",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10885010782,7/26/19 3:42,7/26/19 3:46,Ohio,1959,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885010317,7/26/19 3:46,7/26/19 3:49,Virginia,1955,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10885007344,7/26/19 3:43,7/26/19 3:47,New York,1992,Male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10885005816,7/26/19 3:42,7/26/19 3:44,Connecticut,1957,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10885001934,7/26/19 3:17,7/26/19 3:39,California,1967,Male,Hispanic,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10884999313,7/26/19 3:36,7/26/19 3:37,Maine,1965,Male,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 4,Image 4,Image 3,Male,Male,Male,Female
+surveymonkey,10884994706,7/26/19 3:33,7/26/19 3:37,Ohio,1968,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884993025,7/26/19 3:30,7/26/19 3:32,New York,1985,Female,White / Caucasian,"$50,000 and $99,999",Doctoral Degree,Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884992198,7/26/19 3:26,7/26/19 3:31,North Carolina,1988,Female,Black or African American,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 4,Male,Male,Female,Female
+surveymonkey,10884992065,7/26/19 3:31,7/26/19 3:35,Virginia,1954,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884990406,7/26/19 3:30,7/26/19 3:34,North Carolina,1973,Female,White / Caucasian,"$150,000 to $199,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884986819,7/26/19 3:26,7/26/19 3:31,Kentucky,1965,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10884986630,7/26/19 3:27,7/26/19 3:31,North Carolina,1972,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884983537,7/26/19 3:24,7/26/19 3:28,California,1946,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884980196,7/26/19 3:22,7/26/19 3:25,Florida,1973,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 2,Female,Male,Female,Male
+surveymonkey,10884974398,7/26/19 3:13,7/26/19 3:17,Utah,1963,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10884974315,7/26/19 3:17,7/26/19 3:22,Ohio,1959,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884970707,7/26/19 3:14,7/26/19 3:22,Georgia,1963,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 1,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10884968777,7/26/19 3:11,7/26/19 3:13,Utah,1979,Male,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884966062,7/26/19 3:11,7/26/19 3:15,Michigan,1956,Female,White / Caucasian,"$50,000 and $99,999","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10884964027,7/26/19 3:09,7/26/19 3:14,Wyoming,1935,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10884962485,7/26/19 3:04,7/26/19 3:08,Oklahoma,1971,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10884962084,7/26/19 3:08,7/26/19 3:14,Tennessee,1983,Male,White / Caucasian,"Less thanÎ_$10,000",Doctoral Degree,Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884960271,7/26/19 3:06,7/26/19 3:08,Florida,1961,Female,Hispanic,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 4,Image 3,Male,Female,Male,Female
+surveymonkey,10884957331,7/26/19 2:59,7/26/19 3:04,California,1967,Male,White / Caucasian,"Less thanÎ_$10,000",Associate Degree (2-year),Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884957111,7/26/19 3:00,7/26/19 3:04,New York,1971,Male,Asian / Pacific Islander,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10884955834,7/26/19 3:00,7/26/19 3:03,Pennsylvania,1966,Female,White / Caucasian,Prefer NOT to disclose,High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884949384,7/26/19 2:58,7/26/19 3:02,Arizona,1992,Female,Hispanic,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10884948785,7/26/19 2:57,7/26/19 3:02,Texas,1940,Female,White / Caucasian,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884947558,7/26/19 2:56,7/26/19 3:00,Massachusetts,1967,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884945373,7/26/19 2:54,7/26/19 2:58,Illinois,1995,Female,Black or African American,"$10,000Î_to $49,999",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884945179,7/26/19 2:52,7/26/19 2:55,West Virginia,1989,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884944761,7/26/19 2:54,7/26/19 2:56,New York,1969,Female,Black or African American,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884943635,7/26/19 2:50,7/26/19 2:53,West Virginia,1950,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 4,Image 1,Image 4,Male,Male,Female,Female
+surveymonkey,10884943524,7/26/19 2:51,7/26/19 2:53,Virginia,1973,Male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884940547,7/26/19 2:46,7/26/19 2:51,New York,1965,Male,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
+surveymonkey,10884936961,7/26/19 2:44,7/26/19 2:48,Maryland,1960,Female,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884936639,7/26/19 2:47,7/26/19 2:52,Florida,1955,Female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 2,Image 1,Female,Male,Female,Male
+surveymonkey,10884929966,7/26/19 2:38,7/26/19 2:42,Connecticut,1962,Male,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10884929782,7/26/19 2:42,7/26/19 2:44,Louisiana,1952,Male,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 3,Image 2,Image 4,Male,Male,Female,Female
+surveymonkey,10884928532,7/26/19 2:41,7/26/19 2:45,Nebraska,1952,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 1,Female,Female,Female,Male
+surveymonkey,10884926098,7/26/19 2:39,7/26/19 2:42,California,1984,Female,Hispanic,"$150,000 to $199,999",High School Graduate,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10884923640,7/26/19 2:37,7/26/19 2:41,Oklahoma,1971,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10884920273,7/26/19 2:35,7/26/19 2:38,California,1995,Male,Asian / Pacific Islander,"$200,000 or more",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884919199,7/26/19 2:34,7/26/19 2:38,Virginia,1955,Female,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 4,Image 2,Image 4,Image 2,Female,Female,Male,Male
+surveymonkey,10884915778,7/26/19 2:31,7/26/19 2:34,Pennsylvania,1966,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 4,Image 3,Male,Male,Male,Female
+surveymonkey,10884914959,7/26/19 2:31,7/26/19 2:32,New York,1964,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10884913752,7/26/19 2:24,7/26/19 2:32,Michigan,1971,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 1,Male,Female,Female,Male
+surveymonkey,10884910900,7/26/19 2:28,7/26/19 2:28,New York,1973,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,,,,,NULL,NULL,NULL,NULL
+surveymonkey,10884906991,7/26/19 2:24,7/26/19 2:28,Massachusetts,1955,Male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 1,Image 4,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884906005,7/26/19 2:20,7/26/19 2:24,New Jersey,1968,Female,Hispanic,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884904284,7/26/19 2:13,7/26/19 2:23,Michigan,1948,Female,White / Caucasian,"$50,000 and $99,999",Doctoral Degree,Image 1,Image 1,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884900197,7/26/19 2:16,7/26/19 2:20,Florida,1960,Female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 2,Image 3,Image 3,Male,Female,Male,Female
+surveymonkey,10884899092,7/26/19 2:18,7/26/19 2:19,Michigan,1966,Male,Hispanic,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 1,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10884889614,7/26/19 2:11,7/26/19 2:17,Connecticut,1943,Male,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 2,Image 4,Image 2,Male,Female,Male,Male
+surveymonkey,10884888888,7/26/19 2:08,7/26/19 2:11,Indiana,1972,Male,Multiple ethnicities,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10884888835,7/26/19 2:11,7/26/19 2:14,Utah,1976,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884887551,7/26/19 2:09,7/26/19 2:10,New Jersey,1958,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884883459,7/26/19 2:07,7/26/19 2:08,Illinois,1992,Male,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 2,Image 3,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10884881763,7/26/19 2:05,7/26/19 2:13,Washington,1965,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 3,Image 1,Male,Female,Male,Male
+surveymonkey,10884876842,7/26/19 2:03,7/26/19 2:04,Texas,1960,Male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 4,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884876482,7/26/19 2:02,7/26/19 2:04,Oregon,1972,Female,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10884868881,7/26/19 1:56,7/26/19 2:00,Pennsylvania,1961,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 1,Image 3,Image 2,Male,Female,Male,Male
+surveymonkey,10884867704,7/26/19 1:56,7/26/19 1:57,California,1988,Male,Asian / Pacific Islander,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 3,Image 1,Image 4,Female,Male,Female,Female
+surveymonkey,10884867562,7/26/19 1:55,7/26/19 2:00,New Jersey,1969,Male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 3,Image 3,Image 1,Image 3,Female,Male,Female,Female
+surveymonkey,10884865058,7/26/19 1:53,7/26/19 2:05,Texas,1959,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884863291,7/26/19 1:52,7/26/19 2:07,Florida,1979,Female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 3,Image 2,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10884861641,7/26/19 1:51,7/26/19 1:53,Colorado,1959,Male,White / Caucasian,"$200,000 or more",Associate Degree (2-year),Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
+surveymonkey,10884857561,7/26/19 1:48,7/26/19 1:54,Ohio,1962,Male,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 1,Image 4,Image 4,Image 2,Male,Male,Male,Male
+surveymonkey,10884855435,7/26/19 1:47,7/26/19 1:47,Texas,1975,Male,Black or African American,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 3,Image 1,Image 4,Image 4,Female,Female,Male,Female
+surveymonkey,10884852754,7/26/19 1:44,7/26/19 1:47,Ohio,1969,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10884850309,7/26/19 1:43,7/26/19 1:44,Ohio,1969,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10884846075,7/26/19 1:39,7/26/19 1:44,North Carolina,1940,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 1,Image 2,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884844797,7/26/19 1:37,7/26/19 1:39,Alabama,1986,Female,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884839868,7/26/19 1:30,7/26/19 1:35,Florida,1974,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884839453,7/26/19 1:31,7/26/19 1:35,Georgia,1957,Male,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 4,Image 4,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884839276,7/26/19 1:34,7/26/19 1:36,Florida,1966,Male,Black or African American,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 2,Image 1,Image 1,Image 4,Male,Female,Female,Female
+surveymonkey,10884837247,7/26/19 1:33,7/26/19 1:34,Michigan,1953,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 1,Image 4,Image 4,Male,Female,Male,Female
+surveymonkey,10884836079,7/26/19 1:30,7/26/19 1:32,North Carolina,1999,Male,Black or African American,"$10,000Î_to $49,999",Associate Degree (2-year),Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884827771,7/26/19 1:25,7/26/19 1:28,Arizona,1959,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10884827577,7/26/19 1:11,7/26/19 1:25,Tennessee,1972,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 2,Image 1,Image 1,Male,Female,Female,Male
+surveymonkey,10884825719,7/26/19 1:21,7/26/19 1:24,New York,2000,Female,Hispanic,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10884825497,7/26/19 1:17,7/26/19 1:33,North Carolina,1995,Male,Black or African American,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 1,Image 3,Image 1,Male,Female,Male,Male
+surveymonkey,10884824986,7/26/19 1:25,7/26/19 1:27,Tennessee,1970,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 3,Female,Male,Male,Female
+surveymonkey,10884819763,7/26/19 1:19,7/26/19 1:21,New York,1961,Male,White / Caucasian,"$100,000 to $149,999","Professional Degree (MD, JD etc.)",Image 2,Image 4,Image 2,Image 4,Male,Male,Female,Female
+surveymonkey,10884818328,7/26/19 1:13,7/26/19 1:18,Oregon,1997,Male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10884817861,7/26/19 1:18,7/26/19 1:22,Minnesota,1974,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 3,Image 4,Male,Female,Male,Female
+surveymonkey,10884815410,7/26/19 1:13,7/26/19 1:16,Florida,1970,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 3,Image 3,Female,Male,Male,Female
+surveymonkey,10884813747,7/26/19 1:14,7/26/19 1:18,Washington,1949,Female,White / Caucasian,Prefer NOT to disclose,Bachelor's Degree (4-year),Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884809878,7/26/19 1:07,7/26/19 1:11,Illinois,1972,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 4,Female,Female,Female,Female
+surveymonkey,10884802552,7/26/19 1:00,7/26/19 1:06,Tennessee,1965,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884799929,7/26/19 1:04,7/26/19 1:07,South Dakota,1966,Female,White / Caucasian,"$150,000 to $199,999",Doctoral Degree,Image 2,Image 1,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10884795896,7/26/19 0:56,7/26/19 1:01,Washington,1950,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 1,Image 2,Female,Male,Female,Male
+surveymonkey,10884791427,7/26/19 0:53,7/26/19 0:57,Florida,1957,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 1,Image 2,Male,Male,Female,Male
+surveymonkey,10884790039,7/26/19 0:40,7/26/19 0:56,Alabama,1953,Female,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10884786411,7/26/19 0:53,7/26/19 0:57,North Carolina,1972,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10884784084,7/26/19 0:48,7/26/19 0:51,Kentucky,1968,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 3,Female,Male,Male,Female
+surveymonkey,10884782911,7/26/19 0:49,7/26/19 0:55,Oklahoma,1981,Female,White / Caucasian,"$10,000Î_to $49,999",PreferÎ_NOT to disclose,Image 2,Image 3,Image 1,Image 4,Male,Male,Female,Female
+surveymonkey,10884782852,7/26/19 0:50,7/26/19 0:52,Oregon,2000,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884782586,7/26/19 0:50,7/26/19 0:50,Georgia,1999,Female,Hispanic,"Less thanÎ_$10,000",High School Graduate,,,,,NULL,NULL,NULL,NULL
+surveymonkey,10884780831,7/26/19 0:48,7/26/19 0:53,West Virginia,1974,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 1,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884780253,7/26/19 0:43,7/26/19 0:48,Texas,1974,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884769444,7/26/19 0:36,7/26/19 0:39,Michigan,1972,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 2,Image 1,Image 2,Male,Female,Female,Male
+surveymonkey,10884766287,7/26/19 0:35,7/26/19 0:36,California,1963,Female,Black or African American,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10884764560,7/26/19 0:33,7/26/19 0:35,Louisiana,2000,Male,Others not mentioned,"Less thanÎ_$10,000",High School Graduate,Image 1,Image 4,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10884758525,7/26/19 0:28,7/26/19 0:30,California,1972,Female,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 4,Image 2,Male,Female,Male,Male
+surveymonkey,10884758447,7/26/19 0:18,7/26/19 0:30,Tennessee,1989,Female,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 3,Image 1,Image 4,Image 3,Female,Female,Male,Female
+surveymonkey,10884756162,7/26/19 0:25,7/26/19 0:28,California,1990,Male,Hispanic,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 4,Image 1,Female,Female,Male,Male
+surveymonkey,10884754269,7/26/19 0:25,7/26/19 0:27,Florida,1985,Male,Black or African American,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884753841,7/26/19 0:20,7/26/19 0:26,Colorado,1956,Male,White / Caucasian,"$100,000 to $149,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884752113,7/26/19 0:24,7/26/19 0:33,Virginia,1970,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 1,Image 1,Image 4,Image 4,Male,Female,Male,Female
+surveymonkey,10884751190,7/26/19 0:24,7/26/19 0:28,Texas,1965,Male,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 2,Image 3,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884749078,7/26/19 0:20,7/26/19 0:25,North Carolina,1969,Female,White / Caucasian,Prefer NOT to disclose,"Professional Degree (MD, JD etc.)",Image 2,Image 2,Image 2,Image 2,Male,Female,Female,Male
+surveymonkey,10884748758,7/26/19 0:21,7/26/19 0:22,Maine,2000,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 1,Image 3,Image 1,Image 3,Male,Male,Female,Female
+surveymonkey,10884744239,7/26/19 0:16,7/26/19 0:18,California,1970,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884742152,7/26/19 0:14,7/26/19 0:17,California,1993,Male,Prefer not to disclose,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10884735538,7/26/19 0:08,7/26/19 0:11,Arizona,1978,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 1,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884733532,7/26/19 0:10,7/26/19 0:11,California,1976,Male,Asian / Pacific Islander,"$10,000Î_to $49,999","Professional Degree (MD, JD etc.)",Image 3,Image 2,,,Female,Female,NULL,NULL
+surveymonkey,10884730374,7/26/19 0:02,7/26/19 0:07,Virginia,1964,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10884728653,7/26/19 0:06,7/26/19 0:10,California,1967,Female,White / Caucasian,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 3,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884725310,7/26/19 0:02,7/26/19 0:03,Pennsylvania,1990,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10884723211,7/26/19 0:01,7/26/19 0:04,Texas,1973,Female,White / Caucasian,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 4,Image 1,,,Female,Female,NULL,NULL
+surveymonkey,10884719023,7/25/19 23:57,7/26/19 0:02,Texas,1972,Female,Hispanic,"$150,000 to $199,999",Doctoral Degree,Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884718812,7/25/19 23:50,7/25/19 23:58,Florida,1969,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884718752,7/25/19 23:57,7/25/19 23:58,Hawaii,1990,Male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 3,Image 1,Image 1,Male,Male,Female,Male
+surveymonkey,10884715635,7/25/19 23:46,7/25/19 23:55,Hawaii,1968,Female,Others not mentioned,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 3,Image 1,Female,Male,Male,Male
+surveymonkey,10884714478,7/25/19 23:53,7/26/19 0:00,Kansas,1973,Female,White / Caucasian,"$150,000 to $199,999","Professional Degree (MD, JD etc.)",Image 2,Image 3,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10884705193,7/25/19 23:46,7/25/19 23:48,New Jersey,1968,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 1,Image 3,Female,Male,Female,Female
+surveymonkey,10884703781,7/25/19 22:56,7/25/19 23:45,New York,1968,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 2,Image 2,Image 2,Image 4,Male,Female,Female,Female
+surveymonkey,10884700927,7/25/19 23:42,7/25/19 23:44,North Carolina,1971,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884697523,7/25/19 23:35,7/25/19 23:39,Ohio,1991,Male,Others not mentioned,"$50,000 and $99,999",High School Graduate,Image 3,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884697341,7/25/19 23:39,7/25/19 23:42,Illinois,1992,Male,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 4,Image 2,Image 2,Male,Male,Female,Male
+surveymonkey,10884693872,7/25/19 23:31,7/25/19 23:36,California,1995,Female,Hispanic,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 2,Female,Male,Female,Male
+surveymonkey,10884691564,7/25/19 23:28,7/25/19 23:34,California,1966,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 4,Image 4,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10884690572,7/25/19 23:31,7/25/19 23:33,Ohio,1967,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 2,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884689009,7/25/19 23:31,7/25/19 23:34,Massachusetts,1979,Female,White / Caucasian,"$10,000Î_to $49,999",Bachelor's Degree (4-year),Image 2,Image 4,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10884685910,7/25/19 23:25,7/25/19 23:29,California,1965,Female,White / Caucasian,"$200,000 or more",Associate Degree (2-year),Image 3,Image 1,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884685838,7/25/19 23:28,7/25/19 23:30,California,1965,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884683666,7/25/19 23:26,7/25/19 23:29,California,1965,Male,Asian / Pacific Islander,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10884681179,7/25/19 23:17,7/25/19 23:24,Texas,1971,Female,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 3,Image 1,Image 4,Image 3,Female,Female,Male,Female
+surveymonkey,10884679926,7/25/19 23:23,7/25/19 23:24,Texas,1967,Male,Hispanic,"$100,000 to $149,999",High School Graduate,Image 1,Image 3,Image 4,Image 1,Male,Male,Male,Male
+surveymonkey,10884678677,7/25/19 23:22,7/25/19 23:23,California,1985,Male,White / Caucasian,"$50,000 and $99,999",PreferÎ_NOT to disclose,Image 1,Image 2,Image 4,Image 3,Male,Female,Male,Female
+surveymonkey,10884678005,7/25/19 23:21,7/25/19 23:25,New York,1956,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884675439,7/25/19 23:15,7/25/19 23:19,California,1984,Female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 3,Image 1,Image 4,Female,Male,Female,Female
+surveymonkey,10884675154,7/25/19 23:18,7/25/19 23:21,Washington,1987,Male,Asian / Pacific Islander,"$150,000 to $199,999",Doctoral Degree,,,,,NULL,NULL,NULL,NULL
+surveymonkey,10884675082,7/25/19 23:17,7/25/19 23:19,Alabama,1973,Female,White / Caucasian,"Less thanÎ_$10,000",PreferÎ_NOT to disclose,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884670153,7/25/19 23:14,7/25/19 23:17,Tennessee,1948,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 1,Image 1,Image 1,Image 4,Male,Female,Female,Female
+surveymonkey,10884664985,7/25/19 23:06,7/25/19 23:10,Indiana,1969,Female,White / Caucasian,"$100,000 to $149,999",Doctoral Degree,Image 3,Image 2,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10884664422,7/25/19 23:08,7/25/19 23:14,Oregon,1957,Male,American Indian or Alaskan Native,"$10,000Î_to $49,999",Associate Degree (2-year),Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884661254,7/25/19 23:04,7/25/19 23:07,South Carolina,1974,Male,White / Caucasian,"$50,000 and $99,999",Associate Degree (2-year),Image 4,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884657088,7/25/19 23:03,7/25/19 23:05,California,1992,Male,Asian / Pacific Islander,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884654668,7/25/19 22:48,7/25/19 23:01,Kentucky,1948,Female,Black or African American,"$50,000 and $99,999",High School Graduate,Image 4,Image 3,Image 4,Image 1,Female,Male,Male,Male
+surveymonkey,10884653990,7/25/19 22:59,7/25/19 23:01,Georgia,1962,Female,Black or African American,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 3,Female,Male,Female,Female
+surveymonkey,10884653061,7/25/19 22:59,7/25/19 23:00,Arkansas,1996,Female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 2,Image 3,Image 1,Male,Female,Male,Male
+surveymonkey,10884648785,7/25/19 22:56,7/25/19 22:57,California,1974,Female,White / Caucasian,"$200,000 or more",Bachelor's Degree (4-year),Image 4,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10884647257,7/25/19 22:50,7/25/19 22:54,Minnesota,1978,Male,Hispanic,"$50,000 and $99,999",High School Graduate,Image 1,Image 2,Image 4,Image 2,Male,Female,Male,Male
+surveymonkey,10884644758,7/25/19 22:52,7/25/19 22:55,Nevada,1948,Female,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 4,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884643531,7/25/19 22:48,7/25/19 22:51,Texas,1999,Female,Hispanic,"$10,000Î_to $49,999",High School Graduate,Image 1,Image 3,Image 3,Image 2,Male,Male,Male,Male
+surveymonkey,10884640639,7/25/19 22:44,7/25/19 22:48,California,1997,Female,White / Caucasian,"Less thanÎ_$10,000",Associate Degree (2-year),Image 3,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884640470,7/25/19 22:47,7/25/19 22:52,Tennessee,1940,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 1,Image 4,Image 2,Image 3,Male,Male,Female,Female
+surveymonkey,10884640136,7/25/19 22:46,7/25/19 22:47,California,1976,Male,Asian / Pacific Islander,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 4,Image 4,Image 4,Female,Male,Male,Female
+surveymonkey,10884636750,7/25/19 22:44,7/25/19 22:48,Arizona,1969,Female,Hispanic,"$100,000 to $149,999",Associate Degree (2-year),Image 2,Image 3,Image 4,Image 4,Male,Male,Male,Female
+surveymonkey,10884633503,7/25/19 22:38,7/25/19 22:41,California,1954,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 2,Image 2,Image 2,Image 3,Male,Female,Female,Female
+surveymonkey,10884631354,7/25/19 22:39,7/25/19 22:45,California,1940,Male,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884627634,7/25/19 22:35,7/25/19 22:40,Montana,1960,Female,White / Caucasian,"$10,000Î_to $49,999",High School Graduate,Image 3,Image 1,Image 2,Image 2,Female,Female,Female,Male
+surveymonkey,10884621957,7/25/19 22:29,7/25/19 22:30,Oregon,1985,Male,Prefer not to disclose,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 4,Image 3,Image 2,Image 4,Female,Male,Female,Female
+surveymonkey,10884621929,7/25/19 22:29,7/25/19 22:30,Colorado,1989,Female,White / Caucasian,"Less thanÎ_$10,000",High School Graduate,Image 4,Image 2,Image 2,Image 3,Female,Female,Female,Female
+surveymonkey,10884621881,7/25/19 22:30,7/25/19 22:34,Georgia,1958,Male,Black or African American,"$50,000 and $99,999",High School Graduate,Image 2,Image 1,Image 3,Image 2,Male,Female,Male,Male
+surveymonkey,10884620349,7/25/19 22:29,7/25/19 22:33,Georgia,1959,Female,White / Caucasian,"$150,000 to $199,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 4,Female,Male,Male,Female
+surveymonkey,10884617532,7/25/19 22:26,7/25/19 22:31,Alabama,1959,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 3,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884616511,7/25/19 22:25,7/25/19 22:29,Michigan,1963,Female,White / Caucasian,Prefer NOT to disclose,PreferÎ_NOT to disclose,Image 2,Image 2,Image 1,Image 3,Male,Female,Female,Female
+surveymonkey,10884614266,7/25/19 22:23,7/25/19 22:30,Oregon,1949,Male,White / Caucasian,"$10,000Î_to $49,999",Associate Degree (2-year),Image 4,Image 4,Image 3,Image 2,Female,Male,Male,Male
+surveymonkey,10884613623,7/25/19 22:22,7/25/19 22:26,Utah,1967,Female,White / Caucasian,"$100,000 to $149,999",Associate Degree (2-year),Image 4,Image 2,Image 3,Image 2,Female,Female,Male,Male
+surveymonkey,10884610196,7/25/19 22:14,7/25/19 22:19,Pennsylvania,1958,Male,White / Caucasian,"$100,000 to $149,999",Bachelor's Degree (4-year),Image 3,Image 2,Image 1,Image 2,Female,Female,Female,Male
+surveymonkey,10884608557,7/25/19 22:18,7/25/19 22:20,California,1966,Female,White / Caucasian,"$50,000 and $99,999",High School Graduate,Image 3,Image 1,Image 1,Image 3,Female,Female,Female,Female
+surveymonkey,10884607778,7/25/19 22:17,7/25/19 22:20,Texas,1958,Male,White / Caucasian,"$50,000 and $99,999",Bachelor's Degree (4-year),Image 4,Image 1,Image 2,Image 1,Female,Female,Female,Male
+surveymonkey,10884605175,7/25/19 22:13,7/25/19 22:15,New York,1986,Female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 3,Image 2,Image 2,Image 4,Female,Female,Female,Female
+surveymonkey,10884604888,7/25/19 22:13,7/25/19 22:14,South Carolina,1999,Male,White / Caucasian,"Less thanÎ_$10,000",Associate Degree (2-year),Image 2,Image 3,Image 1,Image 4,Male,Male,Female,Female
+surveymonkey,10884603967,7/25/19 22:13,7/25/19 22:17,Oregon,1961,Female,White / Caucasian,"$200,000 or more","Professional Degree (MD, JD etc.)",Image 4,Image 3,Image 4,Image 2,Female,Male,Male,Male
+surveymonkey,10880647389,7/24/19 8:58,7/25/19 0:24,Alabama,1999,Male,American Indian or Alaskan Native,"Less thanÎ_$10,000",High School Graduate,Image 3,Image 1,Image 4,Image 1,Female,Female,Male,Male
