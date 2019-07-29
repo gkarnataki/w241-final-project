@@ -29,13 +29,70 @@ d[,Y_den := ifelse(gender==denstist, 1, -1)]
 d[,Y_1 := Y_pcp + Y_cardio + Y_psy + Y_den]
 
 hist(d[,Y_1], breaks = 4)
-hist(d[gender=="Female" & year_of_birth>1970][,Y_1], breaks = 4)
+hist(d[gender=="Female"][,Y_1], breaks = 4)
 hist(d[gender=="Male"][,Y_1], breaks = 4)
 ```
+# Percentages of genders among subjects
+```{r}
+d[gender=="Male",.N]/d[,.N]
+d[gender=="Female",.N]/d[,.N]
+```
 
+
+# Simple model with gender & gender + income
 ```{r}
 m1 <- d[, lm(Y_1 ~ gender)]
 m2 <- d[, lm(Y_1 ~ gender + as.factor(income))]
 stargazer(m2, type="text")
 ```
+
+# Preferetial rates
+```{r}
+total_choices <- d[,.N] * 4
+total_male_choices <- total_choices/2
+total_female_choices <- total_choices/2
+selected_male_choices <- (d[pcp == "Male", .N] + d[cardiologist == "Male", .N] + d[denstist == "Male", .N] + d[psyciatrist=="Male", .N])/total_choices
+selected_female_choices <- (d[pcp == "Female", .N] + d[cardiologist == "Female", .N] + d[denstist == "Female", .N] + d[psyciatrist=="Female", .N])/total_choices
+total_choices
+selected_male_choices
+selected_female_choices
+```
+# Preferential rates for PCP
+```{r}
+selected_male_choices <- d[pcp == "Male", .N]/d[,.N] 
+selected_female_choices <- d[pcp == "Female", .N]/d[,.N]
+selected_male_choices
+selected_female_choices
+```
+# Preferential rates for Cardiologist
+```{r}
+selected_male_choices <- d[cardiologist == "Male", .N]/d[,.N] 
+selected_female_choices <- d[cardiologist == "Female", .N]/d[,.N]
+selected_male_choices
+selected_female_choices
+```
+# Preferential rates for Psychatrists
+```{r}
+selected_male_choices <- d[psyciatrist == "Male", .N]/d[,.N] 
+selected_female_choices <- d[psyciatrist == "Female", .N]/d[,.N]
+selected_male_choices
+selected_female_choices
+```
+# Preferential rates for Dentists
+```{r}
+selected_male_choices <- d[denstist == "Male", .N]/d[,.N] 
+selected_female_choices <- d[denstist == "Female", .N]/d[,.N]
+selected_male_choices
+selected_female_choices
+```
+# Interaction effects
+```{r}
+# Y_pcp = b0 + (b1 * subject_gender) + (b2 * pcp_gender) + (b3 * subject_gender * pcp_gender) + e 
+m2 <- d[pcp != "NULL",lm(Y_pcp ~ gender + pcp + gender * pcp)]
+m3 <- d[cardiologist != "NULL",lm(Y_cardio ~ gender + cardiologist + gender * cardiologist)]
+m4 <- d[denstist != "NULL",lm(Y_den ~ gender + denstist + gender * denstist)]
+stargazer(m2, m3, m4, type="text")
+```
+
+
 
