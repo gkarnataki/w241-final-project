@@ -1,9 +1,23 @@
 ---
-title: 'Problem Set #4'
-author: 'Experiments and Causality' 
+title: 'W241 Experiments and Causality Final Project'
+author: 'Guatam Karnataki, Adara Liao, Yaran Zhang' 
 output:
   rmarkdown::github_document
 ---
+
+**Contents**
+Part 1: Process and Generate Clean Survey Data 
+Part 2: Generate Modeling Data: add Y and other Outcome Variable for modeling use
+Part 3: EDA for Covarites
+Part 4: EDA for Outcome Variables
+Part 5: Model 1 xxxx
+Part 6: Model 2 xxxx
+Part 7: xxx
+
+**DataFrame Introcuction**
+**d.clean.survey**: clean data direclty from survey, with below fields
+**d.clean.model**: clean data from Survey + Outcome Varaibles + Other variables ONLY for modeling purpose
+
 
 ```{r}
 # load packages 
@@ -13,23 +27,179 @@ library(lmtest)
 library(stargazer)
 library(sandwich)
 library(bit64)
+library(ggplot2)
+library(dplyr)
+```
+
+
+```{r}
+##################################### Part 1: Process and Generate Clean Survey Data 
+#### result dataframe:  d.clean.survey
+
+# Load survey result from CSV
+dsm <- fread("./data/sm_results.csv")
+dq <- fread("./data/qualtrics_results.csv")
+
+# Convert column type for merge purpose
+dsm <- transform(dsm, year_of_birth =  as.character(year_of_birth))
+dsm <- transform(dsm, respondent_id =  as.character(respondent_id))
+
+# Correct column name for SM file
+colnames(dsm)[colnames(dsm)=="psyciatrist"] <- "psychiatrist"
+colnames(dsm)[colnames(dsm)=="denstist"] <- "dentist"
+colnames(dq)[colnames(dq)=="end_Date"] <- "end_date"
+
+# UNION SM result and Q result except for gender-specific columns
+d.clean.survey <- rbind(dsm[,c(1:10, 15:18)], dq[, 1:14], fill=TRUE)
+
+# Append gender-specific columns from Q result
+d.clean.survey$gender_specific_physician1[d.clean.survey$channel == "qualtrics"] <- "Female"
+d.clean.survey$gender_specific_score1[d.clean.survey$channel == "qualtrics"]  <- coalesce(dq$urologist_score1, dq$obgyn_score1)
+d.clean.survey$gender_specific_physician2[d.clean.survey$channel == "qualtrics"]  <- "Female"
+d.clean.survey$gender_specific_score2[d.clean.survey$channel == "qualtrics"]  <- coalesce(dq$urologist_score2, dq$obgyn_score2)
+d.clean.survey$gender_specific_physician3 [d.clean.survey$channel == "qualtrics"] <- "Male"
+d.clean.survey$gender_specific_score3[d.clean.survey$channel == "qualtrics"]  <- coalesce(dq$urologist_score3, dq$obgyn_score3)
+d.clean.survey$gender_specific_physician4[d.clean.survey$channel == "qualtrics"]  <- "Male"
+d.clean.survey$gender_specific_score4[d.clean.survey$channel == "qualtrics"]  <- coalesce(dq$urologist_score4, dq$obgyn_score4)
+
+# Remove irregular words
+d.clean.survey$race <- gsub("\xeb_", " ", d.clean.survey$race)
+d.clean.survey$income <- gsub("\xeb_", " ", d.clean.survey$income)
+d.clean.survey$degree <- gsub("\xeb_", " ", d.clean.survey$degree)
+d.clean.survey$income <- gsub("\xeb_", " ", d.clean.survey$income)
+d.clean.survey$degree <- gsub("<eb>_", " ", d.clean.survey$degree)
+
+# Set NA
+d.clean.survey$pcp[d.clean.survey$pcp == "NULL"] <- NA
+d.clean.survey$cardiologist[d.clean.survey$cardiologist == "NULL"] <- NA
+d.clean.survey$psychiatrist[d.clean.survey$psychiatrist == "NULL"] <- NA
+d.clean.survey$dentist[d.clean.survey$dentist == "NULL"] <- NA
+
+# Make gender value consistent
+d.clean.survey$gender[d.clean.survey$gender == "male"] <- "Male"
+d.clean.survey$pcp[d.clean.survey$pcp == "male"] <- "Male"
+d.clean.survey$cardiologist[d.clean.survey$cardiologist == "male"] <- "Male"
+d.clean.survey$psychiatrist[d.clean.survey$psychiatrist == "male"] <- "Male"
+d.clean.survey$dentist[d.clean.survey$dentist == "male"] <- "Male"
+
+d.clean.survey$gender[d.clean.survey$gender == "female"] <- "Female"
+d.clean.survey$pcp[d.clean.survey$pcp == "female"] <- "Female"
+d.clean.survey$cardiologist[d.clean.survey$cardiologist == "female"] <- "Female"
+d.clean.survey$psychiatrist[d.clean.survey$psychiatrist == "female"] <- "Female"
+d.clean.survey$dentist[d.clean.survey$dentist == "female"] <- "Female"
+
+# Make degree value consistent
+d.clean.survey$degree <-  gsub("degree", "Degree", d.clean.survey$degree)
+d.clean.survey$degree[d.clean.survey$degree == "High school graduate (high school diploma or equivalent including GED)"] <-  "High School Graduate"
+d.clean.survey$degree[d.clean.survey$degree == "Professional degree (JD, MD)"] <-  "Professional Degree (MD, JD etc.)"
+
+
+# Make race value consistent
+d.clean.survey$race <-  gsub("American Indian or Alaskan Native", "American Indian or Alaska Native", d.clean.survey$race)
+d.clean.survey$race <-  gsub("Others not mentioned above", "Others not mentioned", d.clean.survey$race)
+d.clean.survey$race <-  gsub("Prefer not to disclose", "Prefer NOT to disclose", d.clean.survey$race)
+
+# Correct year_of_birth data and convert to int
+d.clean.survey$year_of_birth <-  gsub("3/22/92", "1992", d.clean.survey$year_of_birth)
+d.clean.survey$year_of_birth <-  gsub("5/21/84", "1984", d.clean.survey$year_of_birth)
+d.clean.survey$year_of_birth <-  gsub("6/3/80", "1980", d.clean.survey$year_of_birth)
+d.clean.survey$year_of_birth <-  gsub("5281993", "1993", d.clean.survey$year_of_birth)
+d.clean.survey$year_of_birth <-  gsub("3/29/84", "1992", d.clean.survey$year_of_birth)
+
+
+# Improve format
+d.clean.survey$channel <-  gsub("surveymonkey", "SurveyMonkey", d.clean.survey$channel)
+d.clean.survey$channel <-  gsub("qualtrics", "Qualtrics", d.clean.survey$channel)
+
+# Preview data
+head(d.clean.survey)
+
+# Save in CSV as backup
+write.csv(d.clean.survey, file = "d_clean_survey.csv")
+
+```
+
+
+```{r}
+##################################### Part 2: Generate Modeling Data: add Y and other Outcome Variable for modeling use
+#### result dataframe:  d.clean.model
+
+# Genderate Y for 4 non-gender-specific specialty
+d.clean.model <- d.clean.survey
+d.clean.model[,Y_pcp := ifelse(gender==pcp, 1, -1)]
+d.clean.model[,Y_cardio := ifelse(gender==cardiologist, 1, -1)]
+d.clean.model[,Y_psy := ifelse(gender==psychiatrist, 1, -1)]
+d.clean.model[,Y_den := ifelse(gender==dentist, 1, -1)]
+d.clean.model[,Y_1 := Y_pcp + Y_cardio + Y_psy + Y_den]
+
+# Preview data
+head(d.clean.model)
+
 ```
 
 ```{r}
-d <- fread("./data/sm_results.csv")
-d <- data.table(d)
-d <- na.omit(d)
-head(d)
+
+##################################### Part 3: EDA for Covarites 
+ggplot(data.frame(d.clean.survey), aes(x=gender, fill=channel)) +
+  geom_bar() 
+
+ggplot(data.frame(d.clean.survey), aes(x=race, fill=gender)) +
+  geom_bar()+ 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+ggplot(data.frame(d.clean.survey), aes(x=year_of_birth, fill=gender)) +
+  geom_bar()+ 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+ggplot(data.frame(d.clean.survey), aes(x=degree, fill=gender)) +
+  geom_bar()+ 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplot(data.frame(d.clean.survey), aes(x=income, fill=gender)) +
+  geom_bar()+ 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
 ```
+
 ```{r}
-d[,Y_pcp := ifelse(gender==pcp, 1, -1)]
-d[,Y_cardio := ifelse(gender==cardiologist, 1, -1)]
-d[,Y_psy := ifelse(gender==psyciatrist, 1, -1)]
-d[,Y_den := ifelse(gender==denstist, 1, -1)]
-d[,Y_1 := Y_pcp + Y_cardio + Y_psy + Y_den]
+##################################### Part 4: EDA for Outcome Variables 
+ggplot(data.frame(d.clean.model), aes(x=Y_1, fill=gender)) +
+  geom_bar() 
 
-hist(d[,Y_1], breaks = 4)
-hist(d[gender=="Female" & year_of_birth>1970][,Y_1], breaks = 4)
-hist(d[gender=="Male"][,Y_1], breaks = 4)
 ```
 
+
+```{r}
+
+##################################### Part 5: Model 1 xxxx
+
+
+
+```
+
+```{r}
+
+##################################### Part 6: Model 2 xxxx
+
+
+
+```
+
+```{r}
+
+##################################### Part 7
+
+
+
+```
+
+```{r}
+
+##################################### Part 8
+
+
+
+```
