@@ -237,6 +237,30 @@ ggplot(data=all, aes(x=factor(Y_1), y=pct, fill=race)) + geom_bar(stat="identity
 ```{r}
 
 ##################################### Part 6: Model 2 xxxx
+# Average treatment effect
+d <- d.clean.survey[,c("gender","race","income","degree","Y_1")]
+d <- na.omit(d)
+
+gender_list <- c(unique(d[, gender]))
+race_list <- c(unique(d[, race]))
+income_list <- c(unique(d[,income]))
+for(item in gender_list){
+  print(mean(d[gender==item,Y_1]))
+}
+
+for(item1 in gender_list){
+  for(item2 in race_list) {
+    for(item3 in income_list) 
+      cat(item1, item2, item3, mean(d[gender==item1 & race==item2 & income==item3,.N]),mean(d[gender==item1 & race==item2 & income==item3,Y_1]),"\n")
+  }
+}
+
+mean(d[gender=="Male" & race=="White / Caucasian",Y_1])
+mean(d[gender=="Female" & race=="Black or African American",Y_1])
+
+m1 <- d[, lm(Y_1 ~ gender)]
+m2 <- d[, lm(Y_1 ~ gender + race + gender * race)]
+stargazer(m1, m2, type="text")
 
 
 
@@ -246,9 +270,19 @@ ggplot(data=all, aes(x=factor(Y_1), y=pct, fill=race)) + geom_bar(stat="identity
 ```{r}
 
 ##################################### Part 7
+summary(m1)
 
 
+```
+```{r}
+mean(d[income=="Less than $10,000",Y_1])
 
+m3 <- d[, lm(Y_1 ~ income)]
+summary(m3)
+```
+```{r}
+m4 <- d[, lm(Y_1 ~ degree)]
+summary(m4)
 ```
 
 ```{r}
