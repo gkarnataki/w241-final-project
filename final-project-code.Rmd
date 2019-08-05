@@ -173,33 +173,121 @@ ggplot(data.frame(d.clean.model), aes(x=Y_1, fill=gender)) +
 
 
 ```{r}
-
 ##################################### Part 5: Model 1 xxxx
+# Overall averages
+d <- d.clean.survey[,c("gender","Y_1")]
+d <- na.omit(d)
 
+total <- d[,.N]
+all <- d[, .(pct_all = (.N/total*100)), keyby=(Y_1)]
+ggplot(data=all, aes(x=factor(Y_1), y=pct_all)) + geom_bar(stat="identity")
+
+# Gender specific averages
+d[gender=="Male", .N]/d[,.N]
+d[gender=="Female", .N]/d[,.N]
+
+d <- na.omit(d.clean.survey[,c("gender", "Y_1")])
+all<-d[, .N, keyby=.(gender, Y_1)]
+ggplot(data=all, aes(x=factor(Y_1), y=N, fill=gender)) + geom_bar(stat="identity", 
+                                                                  position=position_dodge())
+```
+```{r}
+# Effects by gender and speciality
+
+d <- na.omit(d.clean.survey[,c("gender","Y_pcp")])
+all<-d[, .N, keyby=.(gender, Y_pcp)]
+ggplot(data=all, aes(x=factor(Y_pcp), y=N, fill=gender)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
+
+d <- na.omit(d.clean.survey[,c("gender", "Y_den")])
+all<-d[, .N, keyby=.(gender, Y_den)]
+ggplot(data=all, aes(x=factor(Y_den), y=N, fill=gender)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
+
+d <- na.omit(d.clean.survey[,c("gender", "Y_psy")])
+all<-d[, .N, keyby=.(gender, Y_psy)]
+ggplot(data=all, aes(x=factor(Y_psy), y=N, fill=gender)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
+
+d <- na.omit(d.clean.survey[,c("gender", "Y_cardio")])
+all<-d[, .N, keyby=.(gender, Y_cardio)]
+ggplot(data=all, aes(x=factor(Y_cardio), y=N, fill=gender)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
 
 
 ```
-
 ```{r}
+# Income effects
+d <- na.omit(d.clean.survey[,c("income","Y_1")])
+total <- d[,.N]
+all<-d[, .(pct = (.N/total)), keyby=.(income, Y_1)]
+ggplot(data=all, aes(x=factor(Y_1), y=pct, fill=income)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
 
-##################################### Part 6: Model 2 xxxx
-
-
-
+```
+```{r}
+# Race effects
+d <- na.omit(d.clean.survey[,c("race","Y_1")])
+total <- d[,.N]
+all<-d[, .(pct = (.N/total)), keyby=.(race, Y_1)]
+ggplot(data=all, aes(x=factor(Y_1), y=pct, fill=race)) + geom_bar(stat="identity",
+                                                                    position=position_dodge())
 ```
 
 ```{r}
-
-##################################### Part 7
-
-
-
+d <- d.clean.survey[,c("channel", "gender","race","income","degree","Y_1")]
+d <- na.omit(d)
 ```
 
 ```{r}
+# Model 1 - Effect of participant gender on outcome
+m_gender <- d[, lm(Y_1 ~ gender)]
+summary(m_gender)
+```
 
-##################################### Part 8
+```{r}
+# Model 2 - Effet of participant race on outcome
+m_race <- d[, lm(Y_1 ~ race)]
+summary(m_race)
+```
 
+```{r}
+# Model 3 - Effect of participant degree on outcome
+m_degree <- d[, lm(Y_1 ~ degree)]
+summary(m_degree)
+```
+
+```{r}
+# Model 4 - Effect of participant income on outcome
+m_income <- d[, lm(Y_1 ~ income)]
+summary(m_income)
+```
+
+```{r}
+# Model 5 - Interaction effect of gender and race
+m_gender_race <- d[, lm(Y_1 ~ gender + race + gender * race)]
+summary(m_gender_race)
+```
+```{r}
+# Model 6 - Interaction effect of gender and race
+m_gender_income <- d[, lm(Y_1 ~ gender + income + gender * income)]
+summary(m_gender_income)
+```
+```{r}
+# Model 7 - Interaction effect of gender and degree
+m_gender_degree <- d[, lm(Y_1 ~ gender + degree + gender * degree)]
+summary(m_gender_degree)
+```
+
+```{r}
+# Use stargazer to consolidate all the models
+stargazer(m_gender, 
+          m_degree, 
+          m_race,
+          m_gender_race,
+          m_gender_income,
+          m_gender_degree,
+          type="text")
 
 
 ```
