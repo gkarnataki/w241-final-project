@@ -31,6 +31,9 @@ library(ggplot2)
 library(dplyr)
 library(scales)
 
+
+head(dsm)
+head(dq)
 ```
 
 
