@@ -31,9 +31,6 @@ library(ggplot2)
 library(dplyr)
 library(scales)
 
-
-head(dsm)
-head(dq)
 ```
 
 
@@ -55,7 +52,7 @@ colnames(dsm)[colnames(dsm)=="denstist"] <- "dentist"
 colnames(dq)[colnames(dq)=="end_Date"] <- "end_date"
 
 # UNION SM result and Q result except for gender-specific columns
-d.clean.survey <- rbind(dsm[,c(1:10, 15:18)], dq[, 2:14], fill=TRUE)
+d.clean.survey <- rbind(dsm[,c(1:10, 15:18)], dq[, 2:15], fill=TRUE)
 
 # Append gender-specific columns from Q result
 d.clean.survey$gender_specific_physician1[d.clean.survey$channel == "qualtrics"] <- "Female"
