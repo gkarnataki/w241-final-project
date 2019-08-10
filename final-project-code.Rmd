@@ -30,6 +30,8 @@ library(bit64)
 library(ggplot2)
 library(dplyr)
 library(scales)
+library(stringr)
+library(reshape2)
 
 ```
 
@@ -119,6 +121,10 @@ d.clean.survey$income[d.clean.survey$income == "More than $199,999"] <- "$200,00
 d.clean.survey$channel <-  gsub("surveymonkey", "SurveyMonkey", d.clean.survey$channel)
 d.clean.survey$channel <-  gsub("qualtrics", "Qualtrics", d.clean.survey$channel)
 
+# Make Survey Monkey timestamp length consistent Compliance Check
+d.clean.survey[nchar(d.clean.survey$start_date) == 12,]$start_date <- gsub(" ", " 0", d.clean.survey[nchar(d.clean.survey$start_date) == 12,]$start_date)
+d.clean.survey[nchar(d.clean.survey$end_date) == 12,]$end_date <- gsub(" ", " 0", d.clean.survey[nchar(d.clean.survey$end_date) == 12,]$end_date)
+
 # Preview data
 head(d.clean.survey)
 
@@ -127,21 +133,86 @@ write.csv(d.clean.survey, file = "d_clean_survey.csv")
 
 ```
 
+```{r}
+##################################### Part 1.5: Compliance Check - add duration column and plot
+#### result dataframe:  d.clean.survey
+
+# Calculate durartion(in minutes) to complete survey 
+d.clean.survey$duration_min[d.clean.survey$channel=="SurveyMonkey"] <-  ( as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="SurveyMonkey"], 3, 4)) - as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="SurveyMonkey"], 3, 4)) ) * 1440 + (as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="SurveyMonkey"], 9, 10)) - as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="SurveyMonkey"], 9, 10)) ) * 60  +  (  as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="SurveyMonkey"], 12, 13))  - as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="SurveyMonkey"], 12, 13)) )
+
+d.clean.survey$duration_min[d.clean.survey$channel=="Qualtrics"] <-  ( as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="Qualtrics"], 9, 10)) - as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="Qualtrics"], 9, 10)) ) * 1440 + ( as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="Qualtrics"], 12, 13)) - as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="Qualtrics"], 12, 13)) ) * 60  +  (  as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="Qualtrics"], 15, 16))  -  as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="Qualtrics"], 15, 16))) + ( as.numeric(substr(d.clean.survey$end_date[d.clean.survey$channel=="Qualtrics"], 18, 19))  -  as.numeric(substr(d.clean.survey$start_date[d.clean.survey$channel=="Qualtrics"], 18, 19)))/60
+
+# Preview data
+head(d.clean.survey)
+
+d.clean.survey$duration_min_category <- case_when(
+  d.clean.survey$duration_min <=1 ~ "layer0: Less than 1 minute",
+  d.clean.survey$duration_min <=2 & d.clean.survey$duration_min > 1  ~ "layer1:  1~2 minutes",
+  d.clean.survey$duration_min <=3 & d.clean.survey$duration_min > 2  ~ "layer2:  2~3 minutes",
+  d.clean.survey$duration_min <=4 & d.clean.survey$duration_min > 3  ~ "layer3:  3~4 minutes",
+  d.clean.survey$duration_min <=5 & d.clean.survey$duration_min > 4  ~ "layer4:  4~5 minutes",
+  d.clean.survey$duration_min <=10 & d.clean.survey$duration_min > 5  ~ "layer5:  5~10 minutes",
+  d.clean.survey$duration_min <=20 & d.clean.survey$duration_min > 10  ~ "layer6: 10~20 minutes",
+  d.clean.survey$duration_min <=100 & d.clean.survey$duration_min > 20  ~ "layer7: 20~100 minutes",
+  d.clean.survey$duration_min <=1000 & d.clean.survey$duration_min > 100  ~ "layer8: 100~1000 minutes",
+  d.clean.survey$duration_min > 1000  ~ "layer9: More than 1000 minutes")
+
+ggplot(data=d.clean.survey, aes(x=duration_min_category, fill=duration_min_category)) +
+  geom_bar() +
+  geom_text( stat='count' , aes(label=..count..), vjust=-0.5) +
+  scale_x_discrete(labels = wrap_format(10)) + 
+  theme(legend.position = "none") +
+  xlab("Time to Complete Survey (in minutes)")
+
+# # Compliance Check: duration_min distribution from 0 to 5.9k
+# ggplot(data.frame(d.clean.survey[d.clean.survey$duration_min<=20,]), aes(y=duration_min)) +
+#   geom_boxplot(outlier.colour="red", outlier.shape=1,outlier.size=4)
+# 
+# ggplot(data.frame(d.clean.survey[d.clean.survey$duration_min>20 & d.clean.survey$duration_min<1000,]), aes(x=duration_min)) +
+#   geom_bar() + 
+#     coord_cartesian(xlim = c(20, 1000))
+# 
+# ggplot(data.frame(d.clean.survey[d.clean.survey$duration_min>1000,]), aes(x=duration_min)) +
+#   geom_bar() + 
+#     coord_cartesian(xlim = c(1000, 6000))
+# 
+# # Compliance Check: duration_min < 2 minutes, considered as not a valid feedback
+# nrow(d.clean.survey[d.clean.survey$duration_min<1,]) # 4 rows
+# nrow(d.clean.survey[d.clean.survey$duration_min<2,]) # 56 rows
+
+
+```
 
 ```{r}
 ##################################### Part 2: Generate Modeling Data: add Y and other Outcome Variable for modeling use
 #### result dataframe:  d.clean.model
+#### result dataframe:  d.clean.model.trans
 
 # Genderate Y for 4 non-gender-specific specialty
 d.clean.model <- d.clean.survey
+
 d.clean.model[,Y_pcp := ifelse(gender==pcp, 1, -1)]
 d.clean.model[,Y_cardio := ifelse(gender==cardiologist, 1, -1)]
 d.clean.model[,Y_psy := ifelse(gender==psychiatrist, 1, -1)]
 d.clean.model[,Y_den := ifelse(gender==dentist, 1, -1)]
 d.clean.model[,Y_1 := Y_pcp + Y_cardio + Y_psy + Y_den]
 
+# Generate #of Famele/Male within 3 specs
+d.clean.model$Y_4spec_female <- str_count(paste(d.clean.model$pcp, d.clean.model$cardiologist, d.clean.model$psychiatrist, d.clean.model$dentist), "Female")
+d.clean.model$Y_4spec_male <- str_count(paste(d.clean.model$pcp, d.clean.model$cardiologist, d.clean.model$psychiatrist, d.clean.model$dentist), "Male")
+d.clean.model <- d.clean.model[(d.clean.model$Y_4spec_female + d.clean.model$Y_4spec_male) == 4,]
+
+
+######## Create transpose dataframe
+d.clean.model.trans  <- melt(d.clean.model[,c(2, 11:14)], id.vars="respondent_id",  
+                             variable.name = "4spec_type", value.name="gender_selected", na.rm=TRUE)
+
+d.clean.model.trans[, Y_if_female := ifelse(gender_selected=="Female", 1, 0)]
+
+
 # Preview data
 head(d.clean.model)
+head(d.clean.model.trans)
 
 ```
 
