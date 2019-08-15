@@ -184,6 +184,23 @@ ggplot(data=d.clean.survey, aes(x=duration_min_category, fill=duration_min_categ
 ```
 
 ```{r}
+d <- d.clean.model
+d[,.N]
+d[gender=="Male",.N]/d[gender=="Female",.N]
+
+ggplot(data=d.clean.survey, aes(x=income, fill=income)) +
+  geom_bar() +
+  geom_text( stat='count' , aes(label=..count..), vjust=-0.5) +
+  scale_x_discrete(labels = wrap_format(10)) + 
+  theme(legend.position = "none") +
+  xlab("Time to Complete Survey (in minutes)")
+
+
+```
+
+
+
+```{r}
 ##################################### Part 2: Generate Modeling Data: add Y and other Outcome Variable for modeling use
 #### result dataframe:  d.clean.model
 #### result dataframe:  d.clean.model.trans
@@ -204,11 +221,11 @@ d.clean.model <- d.clean.model[(d.clean.model$Y_4spec_female + d.clean.model$Y_4
 
 
 ######## Create transpose dataframe
-d.clean.model.trans  <- melt(d.clean.model[,c(2, 11:14)], id.vars="respondent_id",  
-                             variable.name = "4spec_type", value.name="gender_selected", na.rm=TRUE)
+d.clean.model.trans  <- melt(d.clean.model[,c(2, 7, 11:14)], id.vars=c("respondent_id","gender"),  
+                             variable.name = "specialty", value.name="gender_selected", na.rm=TRUE)
 
 d.clean.model.trans[, Y_if_female := ifelse(gender_selected=="Female", 1, 0)]
-
+d.clean.model.trans[, isfemale := ifelse(gender=="Female", 1, 0)]
 
 # Preview data
 head(d.clean.model)
@@ -315,6 +332,17 @@ d.cov.eda %>%
 
 
 ```
+```{r}
+# Covariate balance check
+library(cobalt)
+d <- d.clean.model
+#data(d, package="cobalt")
+#d[, bal.tab(Y_4spec_female ~ income, datweights = "att.weights",
+#     distance = "p.score", method = "weighting")]
+d[, gender_n := ifelse(gender=="Female", 1, 0)]
+model1 <- d[, lm(gender_n ~ gender_n)]
+
+```
 
 ```{r}
 ##################################### Part 4: EDA for Outcome Variables 
@@ -322,12 +350,35 @@ ggplot(data.frame(d.clean.model), aes(x=Y_1, fill=gender)) +
   geom_bar() 
 
 ```
+```{r}
+# Overall averages
+d <- d.clean.model[,c("gender","Y_4spec_female")]
+d <- na.omit(d)
+
+total <- d[,.N]
+all <- d[, .(pct_all = (.N/total*100)), keyby=(Y_4spec_female)]
+ggplot(data=all, aes(x=factor(Y_4spec_female), y=pct_all)) + geom_bar(stat="identity") + labs(x = "Number of female doctors chosen per subject in the survey") + labs(y = "% of subjects") + labs(title = "Distribution of Female physician count")
+
+# Gender specific averages
+d[gender=="Male", .N]/d[,.N]
+d[gender=="Female", .N]/d[,.N]
+
+d <- na.omit(d.clean.model[,c("gender", "Y_4spec_female")])
+all<-d[, .(pct_all = (.N/total*100)), keyby=.(gender, Y_4spec_female)]
+ggplot(data=all, aes(x=factor(Y_4spec_female), y=pct_all, fill=gender)) + geom_bar(stat="identity", 
+                                                                  position=position_dodge()) + labs(x = "Number of female doctors chosen per subject in the survey") + labs(y = "% of subjects") + labs(title = "Distribution of Female physician count") + guides(fill = guide_legend(title = "Subject gender"))
+
+
+```
+```{r}
+d[, .(pct_all = (.N/total*100)), keyby=list(gender, Y_4spec_female)]
+```
+
 
 
 ```{r}
-##################################### Part 5: Model 1 xxxx
 # Overall averages
-d <- d.clean.survey[,c("gender","Y_1")]
+d <- d.clean.model[,c("gender","Y_1")]
 d <- na.omit(d)
 
 total <- d[,.N]
@@ -338,36 +389,42 @@ ggplot(data=all, aes(x=factor(Y_1), y=pct_all)) + geom_bar(stat="identity")
 d[gender=="Male", .N]/d[,.N]
 d[gender=="Female", .N]/d[,.N]
 
-d <- na.omit(d.clean.survey[,c("gender", "Y_1")])
+d <- na.omit(d.clean.model[,c("gender", "Y_1")])
 all<-d[, .N, keyby=.(gender, Y_1)]
 ggplot(data=all, aes(x=factor(Y_1), y=N, fill=gender)) + geom_bar(stat="identity", 
                                                                   position=position_dodge())
 ```
 ```{r}
+d <- d.clean.model
+d[, mean(Y_4spec_female)]
+```
+```{r}
+d <- d.clean.model
+all <- d[, .(pct_all = (.N/total*100)), keyby=.(gender)]
+ggplot(data=all, aes(x=factor(gender), y=pct_all, fill=gender)) + geom_bar(stat="identity", position=position_dodge())
+```
+
+
+
+```{r}
 # Effects by gender and speciality
 
-d <- na.omit(d.clean.survey[,c("gender","Y_pcp")])
-all<-d[, .N, keyby=.(gender, Y_pcp)]
-ggplot(data=all, aes(x=factor(Y_pcp), y=N, fill=gender)) + geom_bar(stat="identity",
-                                                                    position=position_dodge())
+plot_by_specialty <- function(spec) {
+  d <- na.omit(d.clean.model.trans[specialty==spec, c("gender","Y_if_female","isfemale")])
+  all <- d[, .(pct_all = (.N/total*100)), keyby=.(gender, Y_if_female)]
+  
+  ggplot(data=all, aes(x=factor(Y_if_female), y=pct_all, fill=gender)) + geom_bar(stat="identity", position=position_dodge()) + labs(x = paste("Number of female ",spec,"s chosen per subject in the survey", sep='')) + labs(y = "% of subjects") + labs(title = "Distribution of Female physicians") + guides(fill = guide_legend(title = "Subject gender"))
+}
 
-d <- na.omit(d.clean.survey[,c("gender", "Y_den")])
-all<-d[, .N, keyby=.(gender, Y_den)]
-ggplot(data=all, aes(x=factor(Y_den), y=N, fill=gender)) + geom_bar(stat="identity",
-                                                                    position=position_dodge())
-
-d <- na.omit(d.clean.survey[,c("gender", "Y_psy")])
-all<-d[, .N, keyby=.(gender, Y_psy)]
-ggplot(data=all, aes(x=factor(Y_psy), y=N, fill=gender)) + geom_bar(stat="identity",
-                                                                    position=position_dodge())
-
-d <- na.omit(d.clean.survey[,c("gender", "Y_cardio")])
-all<-d[, .N, keyby=.(gender, Y_cardio)]
-ggplot(data=all, aes(x=factor(Y_cardio), y=N, fill=gender)) + geom_bar(stat="identity",
-                                                                    position=position_dodge())
-
-
+plot_by_specialty("pcp")
+plot_by_specialty("cardiologist")
+plot_by_specialty("psychiatrist")
+plot_by_specialty("dentist")
 ```
+
+
+
+
 ```{r}
 # Income effects
 d <- na.omit(d.clean.survey[,c("income","Y_1")])
@@ -385,6 +442,106 @@ all<-d[, .(pct = (.N/total)), keyby=.(race, Y_1)]
 ggplot(data=all, aes(x=factor(Y_1), y=pct, fill=race)) + geom_bar(stat="identity",
                                                                     position=position_dodge())
 ```
+```{r}
+# covariate balance check
+d <- na.omit(d.clean.model.trans)
+
+total <- d[,.N]
+d[Y_if_female==0, .N]/total
+d[Y_if_female==1, .N]/total
+
+d[,.(mean(Y_4spec_female))]
+
+
+#t.test(d[Y_if_female==0,], d[Y_if_female==1,])
+
+bal_check_gender <- d[, lm(Y_if_female ~ isfemale)]
+bal_check_specialty <- d[, lm(Y_if_female ~ specialty)]
+
+library(cobalt)
+d <- d.clean.model.trans
+covs <- subset(d, select = c(gender))
+d$p.score <- glm(f.build("isfemale", covs), data = d, 
+                       family = "binomial")$fitted.values
+d$att.weights <- with(d, isfemale + (1-isfemale)*p.score/(1-p.score))
+
+
+b <- bal.tab(covs, treat = d$isfemale, data = d.clean.model.trans, weights = d$att.weights, method = 'weighting')
+b
+
+```
+```{r}
+d <- d.clean.model
+model1 <- d[,lm(Y_1 ~ gender)]
+stargazer(model1, type="text")
+summary(model1)
+d[gender=="Male", .(mean(Y_1))]
+```
+
+
+
+```{r}
+d <- d.clean.model
+d <- d[, age := (2019 - as.numeric(year_of_birth))]
+m_age <- d[, lm(Y_4spec_female ~ gender + age + gender * age)]
+stargazer(m_age, type="text", p.auto = TRUE)
+summary(m_age)
+```
+```{r}
+d[gender=="Male" & age==30, .(mean(Y_4spec_female))]
+```
+
+
+
+
+
+```{r}
+d <- d.clean.model
+d <- na.omit(d)
+m_gender <- d[, lm(Y_4spec_female ~ gender)]
+stargazer(m_gender, type="text", p.auto = TRUE)
+
+d[, gender_n := ifelse(gender=="Male", 0, 1)]
+d[,cor(gender_n, Y_4spec_female)]
+```
+
+```{r}
+d[gender=="Male", .(mean(Y_4spec_female))]
+d[gender=="Female", .(mean(Y_4spec_female))]
+```
+```{r}
+library(car)
+d <- d.clean.model[,c("gender", "Y_4spec_female")]
+d[, scatterplot(Y_4spec_female ~ as.factor(gender))]
+```
+```{r}
+d <- d.clean.model.trans
+model1 <- d[, lm(Y_if_female ~ Y_if_female + isfemale + Y_if_female * isfemale)]
+stargazer(model1, type = "text")
+```
+```{r}
+cse <- function(model, cl) {
+  vcov <- vcovCL(model, cluster=cl)
+  sqrt(diag(vcov))
+}
+
+d <- na.omit(d.clean.model.trans)
+model2 <- d[, lm(Y_if_female ~ Y_if_female + isfemale + Y_if_female * isfemale)]
+model2$vcovCL_ <- vcovCL(model2, cluster = d[, respondent_id])
+coeftest(model2, model2$vcovCL)
+model2$cse <- cse(model2, d[, respondent_id])
+stargazer(model2, type="text")
+```
+```{r}
+total <- d[,.N]
+d[isfemale==1 & Y_if_female==1, .N/total]
+d[isfemale==1 & Y_if_female==0, .N/total]
+d[isfemale==0 & Y_if_female==0, .N/total]
+d[isfemale==0 & Y_if_female==1, .N/total]
+```
+
+
+
 
 ```{r}
 d <- d.clean.survey[,c("channel", "gender","race","income","degree","Y_1")]
@@ -397,15 +554,21 @@ m_gender <- d[, lm(Y_1 ~ gender)]
 summary(m_gender)
 ```
 
+
+
+
 ```{r}
 # Model 2 - Effet of participant race on outcome
-m_race <- d[, lm(Y_1 ~ race)]
-summary(m_race)
+m_income <- d[, lm(Y_4spec_female ~ gender + income + gender * income)]
+summary(m_income, type="text")
+
+d[income == "Less than $10,000" & gender=="Male", .(mean(Y_4spec_female))]
 ```
 
 ```{r}
 # Model 3 - Effect of participant degree on outcome
-m_degree <- d[, lm(Y_1 ~ degree)]
+d <- na.omit(d)
+m_degree <- d[, lm(Y_4spec_female ~ gender + degree + gender*degree)]
 summary(m_degree)
 ```
 
@@ -417,18 +580,37 @@ summary(m_income)
 
 ```{r}
 # Model 5 - Interaction effect of gender and race
-m_gender_race <- d[, lm(Y_1 ~ gender + race + gender * race)]
+m_gender_race <- d[, lm(Y_4spec_female ~ gender + race + gender * race)]
 summary(m_gender_race)
 ```
 ```{r}
 # Model 6 - Interaction effect of gender and race
 m_gender_income <- d[, lm(Y_1 ~ gender + income + gender * income)]
-summary(m_gender_income)
+stargazer(m_gender_income, type = "text")
 ```
 ```{r}
 # Model 7 - Interaction effect of gender and degree
-m_gender_degree <- d[, lm(Y_1 ~ gender + degree + gender * degree)]
+m_gender_degree <- d[, lm(Y_4spec_female ~ gender + degree + gender * degree)]
 summary(m_gender_degree)
+```
+```{r}
+# Model 7 - Interaction effect of gender and degree
+d <- d.clean.model
+d[, age := (2019-yea]
+m_gender_degree <- d[, lm(Y_4spec_female ~ gender + degree + gender * degree)]
+summary(m_gender_degree)
+```
+
+
+
+```{r}
+d <- d.clean.model
+d_gender_spec_male <- d[channel=="Qualtrics"]
+d_gender_spec_male[, Y_specific := (gender_specific_score3 + gender_specific_score4)-(gender_specific_score1 + gender_specific_score2)]
+d_gender_spec_male[gender=="Male",mean(Y_specific)]
+model1 <- d_gender_spec_male[, lm(Y_specific ~ gender)]
+stargazer(model1, type="text")
+summary(model1)
 ```
 
 ```{r}
