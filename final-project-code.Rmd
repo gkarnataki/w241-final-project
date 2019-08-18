@@ -133,6 +133,126 @@ write.csv(d.clean.survey, file = "d_clean_survey.csv")
 
 ```
 
+Ok, so. I think that you've got some issues in the model that you've written. And, unfortunately, the way you've got your data stored, I cannot recreate the *full* set of data that you'd need to esitmate the **correct** model, but I can get you pretty close. 
+
+1. For each choice that a person made, there were **four** options that they could have chosen, right? The four cards. 
+2. What you've got recorded is the binary indicaton if they chose a *male* or *female* person in for that choice. 
+3. So, while the ideal data, I think, would have four rows for each choice that a person made, instead, I'm going to collapse the two options that are *male* and the two options that are *female*. 
+4. This is going to leave you with a set of choices for each of `pcp`, `cardiologist`, `psychiatrist`, `dentist`. 
+
+```{r alex_models}
+d <- fread('./d_clean_survey.csv')
+d <- d[ , .(respondent_id, gender, pcp, cardiologist, psychiatrist, dentist)]
+d <- d[complete.cases(d), ]
+
+d[ , ':='(
+  pcp_female = pcp == 'Female', 
+  pcp_male = !(pcp == 'Female'), 
+  cardiologist_female = cardiologist == 'Female', 
+  cardiologist_male = !(cardiologist == 'Female'), 
+  psychiatrist_female = psychiatrist == 'Female', 
+  psychiatrist_male = !(psychiatrist == 'Female'), 
+  dentist_female = dentist == 'Female', 
+  dentist_male = !(dentist == 'Female'))
+  ]
+d[ , ':='(
+  pcp = NULL, 
+  cardiologist = NULL, 
+  psychiatrist = NULL, 
+  dentist = NULL)
+  ]
+
+setkeyv(d, 'respondent_id')
+
+tall_data <- expand.grid(
+  respondent_id = d[ , respondent_id], 
+  specialty = c('pcp', 'cardiologist', 'psychiatrist', 'dentist'), 
+  doctor_gender = c('male', 'female')
+  )
+
+tall_data <- data.table(tall_data)
+setkeyv(tall_data, cols = c('respondent_id', 'specialty', 'doctor_gender'))
+
+pcp_female <- merge(
+  tall_data[specialty == 'pcp' & doctor_gender == 'female'], 
+  d[ , .(respondent_id, 'choice' = pcp_female, 'subject_gender' = gender)], 
+  by = 'respondent_id'
+  )
+pcp_male <- merge(
+  tall_data[specialty == 'pcp' & doctor_gender == 'male'], 
+  d[ , .(respondent_id, 'choice' = pcp_male, 'subject_gender' = gender)], 
+  by = 'respondent_id'
+)
+cardiologist_female <- merge(
+  tall_data[specialty == 'cardiologist' & doctor_gender == 'female'], 
+  d[ , .(respondent_id, 'choice' = cardiologist_female, 'subject_gender' = gender)], 
+  by = 'respondent_id'
+)
+cardiologist_male <- merge(
+  tall_data[specialty == 'cardiologist' & doctor_gender == 'male'], 
+  d[ , .(respondent_id, 'choice' = cardiologist_male, 'subject_gender' = gender)], 
+  by = 'respondent_id'
+)
+psychiatrist_female <- merge(
+  tall_data[specialty == 'psychiatrist' & doctor_gender == 'female'], 
+  d[ , .(respondent_id, 'choice' = psychiatrist_female, 'subject_gender' = gender)],
+  by = 'respondent_id'
+)
+psychiatrist_male <- merge(
+  tall_data[specialty == 'psychiatrist' & doctor_gender == 'male'], 
+  d[ , .(respondent_id, 'choice' = psychiatrist_male, 'subject_gender' = gender)],
+  by = 'respondent_id'
+)
+dentist_female <- merge(
+  tall_data[specialty == 'dentist' & doctor_gender == 'female'], 
+  d[ , .(respondent_id, 'choice' = dentist_female, 'subject_gender' = gender)],
+  by = 'respondent_id'
+)
+dentist_male <- merge(
+  tall_data[specialty == 'dentist' & doctor_gender == 'male'], 
+  d[ , .(respondent_id, 'choice' = dentist_male, 'subject_gender' = gender)],
+  by = 'respondent_id'
+)
+
+tall_data_2 <- rbind(
+  pcp_female, pcp_male,
+  cardiologist_female, cardiologist_male,
+  psychiatrist_female, psychiatrist_male,
+  dentist_female, dentist_male
+  )
+
+tall_data_2 <- data.table(tall_data_2)
+tall_data_2 <- tall_data_2[complete.cases(tall_data_2)]
+
+mod_1 <- tall_data_2[ , lm(choice ~ doctor_gender)]
+mod_1$cluster_se <- sqrt(diag(vcovCL(mod_1, tall_data_2[ , respondent_id])))
+
+mod_2 <- tall_data_2[ , lm(choice ~ specialty * doctor_gender)]
+mod_2$cluster_se <- sqrt(diag(vcovCL(mod_2, tall_data_2[ , respondent_id])))
+
+doctor_specialty_predictions <- data.table(
+  expand.grid(
+    'specialty' = c('pcp', 'cardiologist', 'psychiatrist', 'dentist'), 
+    'doctor_gender' = c('female', 'male')
+  )
+)
+
+doctor_specialty_predictions <- cbind(
+  doctor_specialty_predictions, 
+  predict(mod_2, newdata = doctor_specialty_predictions, interval = 'confidence')
+)
+
+mod_3 <- tall_data_2[ , lm(choice ~ doctor_gender * subject_gender)]
+summary(mod_3)
+
+mod_4 <- tall_data_2[ , lm(choice ~ specialty * doctor_gender * subject_gender)]
+summary(mod_4)
+```
+
+ I'll leave the team to interpret each of these models. 
+
+
+
 ```{r}
 ##################################### Part 1.5: Compliance Check - add duration column and plot
 #### result dataframe:  d.clean.survey
@@ -532,6 +652,8 @@ coeftest(model2, model2$vcovCL)
 model2$cse <- cse(model2, d[, respondent_id])
 stargazer(model2, type="text")
 ```
+
+
 ```{r}
 total <- d[,.N]
 d[isfemale==1 & Y_if_female==1, .N/total]
